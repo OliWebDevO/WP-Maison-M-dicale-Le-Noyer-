@@ -1771,3 +1771,9 @@
 		font-size:28px;
 	}
 }
+@media (min-width: 1400px) {
+	.features-products-thumb img {
+		max-width: 400px;
+		border-radius: 8px;
+	}
+}

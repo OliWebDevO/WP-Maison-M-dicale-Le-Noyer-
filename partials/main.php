@@ -35,7 +35,7 @@
             <div class="row justify-content-center">
                 <div class="col-xxl-8 col-xl-7 col-lg-8 col-md-10">
                     <div class="banner-content text-center">
-                        <a href="shop.html" class="btn btn-two">Contactez Nous</a>
+                        <a href="<?php bloginfo("url")?>/contact" class="btn btn-two">Contactez Nous</a>
                     </div>
                 </div>
             </div>
@@ -206,7 +206,7 @@
     <!-- features-area-end -->
 
     <!-- features-product -->
-    <section id="inscriptions" class="features-products">
+    <section class="features-products">
         <div class="container">
             <div class="features-products-wrap">
                 <div class="row justify-content-center">
@@ -215,12 +215,11 @@
                             <div class="main-img">
                                 <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/9 - electronic receipt.png" alt="img">
                             </div>
-                            <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape01.png" alt="img" class="shape-img"> -->
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-10">
                         <div class="features-product-content">
-                            <h2 class="title"><a href="shop-details.html">Inscriptions</a></h2>
+                            <h2 class="title"><a href="shop-details.html">Fonctionnement</a></h2>
                             <h6 class="features-product-quantity">Paiement au forfait</h6>
                             <p>
                                 Les maisons médicales au forfait fonctionnent selon un mode de financement différent du paiement traditionnel à l'acte : le patient ne paie plus directement le prestataire de soins au moment de la consultation, ce sont les mutuelles qui versent tous les mois, à la maison médicale, une somme fixe appelée « le forfait » pour couvrir les soins de chaque patient inscrit.
@@ -234,8 +233,7 @@
                                 Il implique une adhésion complète aux trois services de la maison médicale.
                             </p>
                             <div class="features-product-bottom">
-                                <a href="shop-details.html" class="btn">En Savoir plus</a>
-                                <!-- <span class="price">$89.99 <span class="old-price">$117.99</span></span> -->
+                                <a href="<?php bloginfo("url")?>/about" class="btn">En Savoir plus</a>
                             </div>
                         </div>
                     </div>
@@ -248,7 +246,6 @@
                             <div class="main-img">
                                 <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/yoga.png" alt="img">
                             </div>
-                            <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape02.png" alt="img" class="shape-img"> -->
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-10">
@@ -260,47 +257,62 @@
                             <p> <i class="fa-solid fa-check"></i>  Atelier Couture</p>
                             <p> <i class="fa-solid fa-check"></i>  Cours de Yoga & Tai Chi </p>
                             <div class="features-product-bottom">
-                                <a href="shop-details.html" class="btn">En Savoir Plus</a>
-                                <!-- <span class="price">$59.99 <span class="old-price">$79.99</span></span> -->
+                                <a href="<?php bloginfo("url")?>/activites" class="btn">En Savoir Plus</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="features-products-wrap">
+            <div class="features-products-wrap">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-8">
                         <div class="features-products-thumb">
                             <div class="main-img">
-                                <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product03.png" alt="img">
+                                <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/book.png" alt="img">
                             </div>
-                            <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape03.png" alt="img" class="shape-img">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-10">
                         <div class="features-product-content">
-                            <h2 class="title"><a href="shop-details.html">Max Mass 3xl</a></h2>
-                            <h6 class="features-product-quantity">High-strength, 4000IU</h6>
-                            <p>Vitamin D3 supplements are commonly recommended for people at risk for vitamin D deficiency. Low vitamin D levels cause depression, fatigue, and muscle weakness. Over time, vitamin D deficiency can lead to weak bones, rickets in children, and osteoporosis in adults. </p>
+                            <h2 class="title"><a href="<?php bloginfo("url")?>/journal">Journal</a></h2>
+                            <h6 class="features-product-quantity">Découvrez notre journal</h6>
+                            <p>
+                               Lorem ipsum dolores sit amet Lorem ipsum dolores sit amet Lorem ipsum dolores sit amet Lorem ipsum dolores sit amet Lorem ipsum dolores sit amet .
+                            </p>
                             <div class="features-product-bottom">
-                                <a href="shop-details.html" class="btn">Shop Now</a>
-                                <span class="price">$69.99 <span class="old-price">$89.99</span></span>
+                                <a href="<?php bloginfo("url")?>/journal" class="btn">En Savoir plus</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
+            <div id="activités" class="features-products-wrap">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="features-products-thumb">
+                            <div class="main-img">
+                                <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/map.png" alt="img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-10">
+                        <div class="features-product-content">
+                            <h2 class="title"><a href="shop-details.html">Accès & Contact</a></h2>
+                            <h6 class="features-product-quantity">Tous les chemins mènent au noyer</h6>
+                            <p>Contactez nous: </p>
+                            <p> <i class="fa-solid fa-check"></i> Sur place</p>
+                            <p> <i class="fa-solid fa-check"></i> Par Mail</p>
+                            <p> <i class="fa-solid fa-check"></i> Par téléphone </p>
+                            <p> <i class="fa-solid fa-check"></i> Via notre newsletter </p>
+                            <div class="features-product-bottom">
+                                <a href="<?php bloginfo("url")?>/contact" class="btn">En Savoir Plus</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="fp-shapes-wrap">
-            <!-- <div class="fp-shape-one">
-                <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/TDV_M63_06.png" alt="shape" class="paroller" data-paroller-factor="0.25" data-paroller-factor-lg="0.20" data-paroller-factor-md="0.25" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical">
-            </div>
-            <div class="fp-shape-two">
-                <img src="<?php bloginfo("template_url")?>/assets/img/others/features_sec_shape02.png" alt="shape" class="paroller" data-paroller-factor="-0.25" data-paroller-factor-lg="0.20" data-paroller-factor-md="0.25" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical">
-            </div>
-            <div class="fp-shape-three">
-                <img src="<?php bloginfo("template_url")?>/assets/img/others/features_sec_shape03.png" alt="shape" class="paroller" data-paroller-factor="0.25" data-paroller-factor-lg="0.20" data-paroller-factor-md="0.25" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical">
-            </div> -->
         </div>
         <div class="fp-circle one"></div>
         <div class="fp-circle two"></div>
@@ -309,7 +321,6 @@
         <div class="fp-circle five"></div>
     </section>
     <!-- features-product-end -->
-
 
 </main>
 <!-- main-area-end -->

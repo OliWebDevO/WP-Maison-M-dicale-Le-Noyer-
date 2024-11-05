@@ -31,7 +31,7 @@
                                                     <li><a href="<?php bloginfo("url")?>/activites#recurent">Activités récurentes</a></li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/equipe" class="section-link">L'équipe</a>
+                                            <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/equipe" class="section-link">Équipe</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="<?php bloginfo("url")?>/equipe#accueil">Accueil</a></li>
                                                     <li><a href="<?php bloginfo("url")?>/equipe#medecin">Médecins</a></li>
@@ -47,7 +47,7 @@
                                             </li>
                                             <li><a href="<?php bloginfo("url")?>/Journal" class="section-link">Journal</a>
                                             </li>
-                                            <li><a href="<?php bloginfo("url")?>/contact">Accès et Contact</a></li>
+                                            <li><a href="<?php bloginfo("url")?>/contact">Contact & Accès</a></li>
                                         </ul>
                                     </div>
                                 </nav>

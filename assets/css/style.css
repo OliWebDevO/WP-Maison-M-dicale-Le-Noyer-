@@ -1504,10 +1504,10 @@ body.search-visible {
 	position: relative;
 	text-align: center;
 	margin: 0px 137px 0px 212px;
-	img {
+	/* img {
 		max-width: 400px;
 		border-radius: 8px;
-	}
+	} */
 }
 .features-products-thumb::before {
 	content: "";
@@ -3471,7 +3471,10 @@ body.search-visible {
 	border-radius: 8px 8px 0 0;
 	object-fit: cover;
 	object-position: center;
-	
+}
+.service-box .service-photo {
+	max-height: 500px;
+	width: 100%;
 }
 .blog--post--content {
 	padding: 40px 40px;

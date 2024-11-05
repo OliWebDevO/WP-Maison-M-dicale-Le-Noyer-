@@ -123,7 +123,7 @@
                             <div class="col-lg-6 col-md-8">
                                 <div class="features-products-thumb">
                                     <div class="main-img">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/kine.png" alt="img">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/noyer.png" alt="img">
                                     </div>
                                     <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape01.png" alt="img" class="shape-img"> -->
                                 </div>
@@ -157,7 +157,7 @@
                             <div class="col-lg-6 col-md-8">
                                 <div class="features-products-thumb">
                                     <div class="main-img">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/kine.png" alt="img">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/approche.png" alt="img">
                                     </div>
                                     <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape02.png" alt="img" class="shape-img"> -->
                                 </div>
@@ -177,7 +177,7 @@
                             <div class="col-lg-6 col-md-8">
                                 <div class="features-products-thumb">
                                     <div class="main-img">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/9 - electronic receipt.png" alt="img">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic_2.png" alt="img">
                                     </div>
                                     <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape01.png" alt="img" class="shape-img"> -->
                                 </div>
