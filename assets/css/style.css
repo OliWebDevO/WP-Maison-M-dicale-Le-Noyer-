@@ -5053,6 +5053,26 @@ body.search-visible {
 	transition: .3s linear;
 	min-height: 540px;
 }
+.service-item {
+	transition: .3s linear;
+	cursor: pointer;
+	.title {
+		color: black;
+		transition: .3s linear;
+	}
+	p {
+		color: black;
+	}
+	&:hover {
+		transform: translateY(-7px);
+		transition: .3s linear;
+		
+	}
+	&:hover .title {
+		color: var(--tg-primary-color);
+		transition: .3s linear;
+	}
+}
 .tg-features-item:hover {
 	transform: translateY(-7px);
 }

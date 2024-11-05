@@ -9,19 +9,20 @@
                             <div class="menu-wrap">
                                 <nav class="menu-nav">
                                     <div class="logo">
-                                        <a href="index.html"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
+                                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-xl-flex">
                                         <ul class="navigation">
                                             <li class="active menu-item-has-children"><a href="<?php bloginfo("url")?>" class="section-link">Accueil</a>
                                             </li>
-                                            <li><a href="<?php bloginfo("url")?>/about" class="section-link">Le Noyer</a></li>
-                                            <li><a href="<?php bloginfo("url")?>/fonctionnement" class="section-link">Fonctionnement</a></li>
+                                            <li><a href="<?php bloginfo("url")?>/about" class="section-link">Fonctionnement</a></li>
+                                            <!-- <li><a href="<?php bloginfo("url")?>/fonctionnement" class="section-link">Fonctionnement</a></li> -->
                                             <li><a href="<?php bloginfo("url")?>/services" class="section-link">Services</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="<?php bloginfo("url")?>/services">Médecine Générale</a></li>
-                                                    <li><a href="<?php bloginfo("url")?>/services">Kinésithérapie</a></li>
-                                                    <li><a href="<?php bloginfo("url")?>/services">Assistance Sociale</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#servicemedecine">Médecine Générale</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#servicekine">Kinésithérapie</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#serviceinfi">Infirmerie</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#serviceas">Assistance Sociale</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/activites">Activités</a>

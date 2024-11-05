@@ -55,32 +55,32 @@
                     <div class="row g-0 instagram-active">
                         <div class="col-2">
                             <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/others/instagram_post01.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/taichi.jpg" alt="img"></a>
+                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/taichi.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/taichi.jpg" alt="img"></a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/others/instagram_post02.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/couture.jpg" alt="img"></a>
+                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/couture.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/couture.jpg" alt="img"></a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/others/instagram_post03.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/promenade.jpeg" alt="img"></a>
+                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/promenade.jpeg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/promenade.jpeg" alt="img"></a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/others/instagram_post04.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/cuisine.jpg" alt="img"></a>
+                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/cuisine.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/cuisine.jpg" alt="img"></a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/others/instagram_post05.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/dejeuner.jpg" alt="img"></a>
+                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/dejeuner.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/dejeuner.jpg" alt="img"></a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/others/instagram_post06.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/gym.png" alt="img"></a>
+                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/gym.png"><img src="<?php bloginfo("template_url")?>/assets/img/activités/gym.png" alt="img"></a>
                             </div>
                         </div>
                     </div>
