@@ -27,53 +27,59 @@
         </div>
     </div>
 
- <!-- contact-area -->
- <section id="lenoyer" class="contact-area">
-    <div class="container">
-        <div class="contact-box-wrapper">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="contact-box">
-                        <div class="contact-icon">
-                            <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                            <i class="far fa-map"></i>
-                        </div>
-                        <div class="contact-content">
-                            <h5 class="title">Adresse</h5>
-                            <p class="contact-desc">Avenue Félix Marchal, 1a 
-                                <br> 1030 Schaerbeek</p>
-                        </div>
+     <!-- contact-area -->
+     <section id="lenoyer" class="contact-area">
+        <div class="container">
+            <div class="contact-box-wrapper">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-9">
+                        <a href="https://www.google.com/maps/place/Maison+M%C3%A9dicale+Le+Noyer/@50.8523601,4.3863791,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3c35c1c50886d:0xae67049eba86c3a7!8m2!3d50.8523601!4d4.388954!16s%2Fg%2F1tfq3tr7?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D">
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
+                                    <i class="far fa-map"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h5 class="title">Adresse</h5>
+                                    <p class="contact-desc">Avenue Félix Marchal, 1a
+                                        <br> 1030 Schaerbeek</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="contact-box">
-                        <div class="contact-icon">
-                            <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <div class="contact-content">
-                            <h5 class="title">Téléphone</h5>
-                            <p class="contact-desc">(Tel) : 02/734.24.53 <br> (fax) : 02/734.29.27</p>
-                        </div>
+                    <div class="col-lg-4 col-md-6 col-sm-9">
+                        <a href="tel:027342453">
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h5 class="title">Téléphone</h5>
+                                    <p class="contact-desc">(Tel) : 02/734.24.53 <br> (fax) : 02/734.29.27</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-9">
-                    <div class="contact-box">
-                        <div class="contact-icon">
-                            <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                            <i class="fas fa-globe"></i>
-                        </div>
-                        <div class="contact-content">
-                            <h5 class="title">Web</h5>
-                            <p class="contact-desc"><a href="info@lenoyer.be">Mail</a> <br> <a href="https://www.facebook.com/people/Maison-m%C3%A9dicale-Le-Noyer/61553948742997/">Facebook</a></p>
-                        </div>
+                    <div class="col-lg-4 col-md-6 col-sm-9">
+                        <a href="mailto:info@lenoyer.be">
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h5 class="title">Web</h5>
+                                    <p class="contact-desc"><a href="mailto:info@lenoyer.be">Mail</a> <br> <a href="https://www.facebook.com/people/Maison-m%C3%A9dicale-Le-Noyer/61553948742997/">Facebook</a></p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-            <!-- contact-area-end -->
+    </section>
+    <!-- contact-area-end -->
 
             <!-- contact-form-end -->
             <section class="contact-form-area">

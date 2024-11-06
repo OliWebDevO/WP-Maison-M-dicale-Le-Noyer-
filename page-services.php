@@ -109,7 +109,7 @@
             <div class="col-lg-12">
                 <div class="blog--post--item">
                     <div class="blog--post--thumb service-box">
-                        <img class='service-photo' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/vectormedic.png" alt="img">
+                        <img class='service-photo' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic.png" alt="img">
                     </div>
                     <div class="blog--post--content blog-details-content">
                         <h2 class="blog--post--title">Médecine Générale</h2>
@@ -245,7 +245,7 @@
             <div class="col-lg-12">
                 <div class="blog--post--item">
                     <div class="blog--post--thumb service-box">
-                        <img class='service-photo' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/vectormedic.png" alt="img">
+                        <img class='service-photo kine-service' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Orthopedic Physiotherapy.png" alt="img">
                     </div>
                     <div class="blog--post--content blog-details-content">
                         <h2 class="blog--post--title">Kinésithérapie</h2>
@@ -372,7 +372,7 @@
             <div class="col-lg-12">
                 <div class="blog--post--item">
                     <div class="blog--post--thumb service-box">
-                        <img class='service-photo' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/vectormedic.png" alt="img">
+                        <img class='service-photo kine-service' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Medical office 8.png" alt="img">
                     </div>
                     <div class="blog--post--content blog-details-content">
                         <h2 class="blog--post--title">Infirmerie</h2>
@@ -464,7 +464,7 @@
             <div class="col-lg-12">
                 <div class="blog--post--item">
                     <div class="blog--post--thumb service-box">
-                        <img class='service-photo' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/vectormedic.png" alt="img">
+                        <img class='service-photo' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic_2.png" alt="img">
                     </div>
                     <div class="blog--post--content blog-details-content">
                         <h2 class="blog--post--title">Assistance Sociale</h2>

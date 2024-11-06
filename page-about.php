@@ -123,7 +123,7 @@
                             <div class="col-lg-6 col-md-8">
                                 <div class="features-products-thumb">
                                     <div class="main-img">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/noyer.png" alt="img">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic2.png" alt="img">
                                     </div>
                                     <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape01.png" alt="img" class="shape-img"> -->
                                 </div>

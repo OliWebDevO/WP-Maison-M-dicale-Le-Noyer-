@@ -89,41 +89,47 @@
             <div class="contact-box-wrapper">
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-9">
-                        <div class="contact-box">
-                            <div class="contact-icon">
-                                <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                                <i class="far fa-map"></i>
+                        <a href="https://www.google.com/maps/place/Maison+M%C3%A9dicale+Le+Noyer/@50.8523601,4.3863791,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3c35c1c50886d:0xae67049eba86c3a7!8m2!3d50.8523601!4d4.388954!16s%2Fg%2F1tfq3tr7?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D">
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
+                                    <i class="far fa-map"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h5 class="title">Adresse</h5>
+                                    <p class="contact-desc">Avenue Félix Marchal, 1a
+                                        <br> 1030 Schaerbeek</p>
+                                </div>
                             </div>
-                            <div class="contact-content">
-                                <h5 class="title">Adresse</h5>
-                                <p class="contact-desc">Avenue Félix Marchal, 1a 
-                                    <br> 1030 Schaerbeek</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-9">
-                        <div class="contact-box">
-                            <div class="contact-icon">
-                                <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                                <i class="fas fa-phone"></i>
+                        <a href="tel:027342453">
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h5 class="title">Téléphone</h5>
+                                    <p class="contact-desc">(Tel) : 02/734.24.53 <br> (fax) : 02/734.29.27</p>
+                                </div>
                             </div>
-                            <div class="contact-content">
-                                <h5 class="title">Téléphone</h5>
-                                <p class="contact-desc">(Tel) : 02/734.24.53 <br> (fax) : 02/734.29.27</p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-9">
-                        <div class="contact-box">
-                            <div class="contact-icon">
-                                <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                                <i class="fas fa-globe"></i>
+                        <a href="mailto:info@lenoyer.be">
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
+                                    <i class="fas fa-globe"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h5 class="title">Web</h5>
+                                    <p class="contact-desc"><a href="mailto:info@lenoyer.be">Mail</a> <br> <a href="https://www.facebook.com/people/Maison-m%C3%A9dicale-Le-Noyer/61553948742997/">Facebook</a></p>
+                                </div>
                             </div>
-                            <div class="contact-content">
-                                <h5 class="title">Web</h5>
-                                <p class="contact-desc"><a href="info@lenoyer.be">Mail</a> <br> <a href="https://www.facebook.com/people/Maison-m%C3%A9dicale-Le-Noyer/61553948742997/">Facebook</a></p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -138,7 +144,8 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xxl-6 col-lg-5 order-0 order-lg-2">
-                    <div class="features-img wow featuresRollOut" data-wow-delay=".3s">
+                    <!-- <div class="features-img wow featuresRollOut" data-wow-delay=".3s"> -->
+                    <div class="features-img wow fadeInRight" data-wow-delay=".3s">
                         <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic_2.png" alt="">
                     </div>
                 </div>
@@ -263,6 +270,364 @@
                     </div>
                 </div>
             </div>
+            <!-- Equipe-Accueil-area -->
+            <section class="home-shop-area home-team">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-8">
+                            <div class="section-title section-title-two mb-60">
+                                <h2 class="title">L'équipe</h2>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-6 col-md-4">
+                            <div class="view-all-btn text-end mb-50">
+                                <a href="shop.html" class="btn btn-three">All Product</a>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="row home-shop-active">
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/alex.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Alexandra Bustamante</a></h4>
+                                    <span class="home-shop-price">Accueillante</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/martin.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Martin Descamps</a></h4>
+                                    <span class="home-shop-price">Accueillant</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Poker Face_PNG.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Roman Parmentier</a></h4>
+                                    <span class="home-shop-price">Accueillant</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Smiling Woman_PNG.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Marie-Joëlle Plumat</a></h4>
+                                    <span class="home-shop-price">Accueillante</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/sana.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Sana Abboud</a></h4>
+                                    <span class="home-shop-price">Médecin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/pauline.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Pauline Barbier</a></h4>
+                                    <span class="home-shop-price">Médecin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Poker Face_PNG.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Benjamin Fauquert</a></h4>
+                                    <span class="home-shop-price">Médecin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/quentin.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Quentin Vanderhofstadt</a></h4>
+                                    <span class="home-shop-price">Médecin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/kiwi.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Kiwi Farber</a></h4>
+                                    <span class="home-shop-price">Médecin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/doriane.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Doriane Kyaboba</a></h4>
+                                    <span class="home-shop-price">Assistante Médecin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/alexia.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Alexia Bontron</a></h4>
+                                    <span class="home-shop-price">Assistante Médecin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/lauranne.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Lauranne Leysen</a></h4>
+                                    <span class="home-shop-price">Assistante Médecin</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/clemence.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Clémence Nelis</a></h4>
+                                    <span class="home-shop-price">Kinésithérapeute</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/juliette.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Juliette Demey</a></h4>
+                                    <span class="home-shop-price">Kinésithérapeute</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/abdelkrim.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Abdelkrim Alizazou</a></h4>
+                                    <span class="home-shop-price">Kinésithérapeute</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/corinne.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Corinne Gilon</a></h4>
+                                    <span class="home-shop-price">Kinésithérapeute</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Poker Face_PNG.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Lars Denayer</a></h4>
+                                    <span class="home-shop-price">Coach du Mouvement</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/laura.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Laura Lozano</a></h4>
+                                    <span class="home-shop-price">Infirmière</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/vincent.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Vincent Vrijens</a></h4>
+                                    <span class="home-shop-price">Infirmier</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Smiling Woman_PNG.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Nina Covalski</a></h4>
+                                    <span class="home-shop-price">Assistante Sociale</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/koen.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Koen De Clercq</a></h4>
+                                    <span class="home-shop-price">Gestionnaire Administratif</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/luisa.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Luisa Meneses</a></h4>
+                                    <span class="home-shop-price">Gestionnaire Administratif</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/vincent.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Vincent Vrijens</a></h4>
+                                    <span class="home-shop-price">Gestionnaire Administratif</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/jamie lee.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Jamie Lee Fossion</a></h4>
+                                    <span class="home-shop-price">Coordinatrice</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/corinne.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Corinne Gilon</a></h4>
+                                    <span class="home-shop-price">Coordinatrice de la Promotion à la Santé</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/bader.jpeg" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Bader</a></h4>
+                                    <span class="home-shop-price">Entretien</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                    <!-- Equipe-Accueil-area-end -->
             <div class="features-products-wrap">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-8">

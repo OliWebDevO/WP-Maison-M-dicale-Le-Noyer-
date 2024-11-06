@@ -1686,6 +1686,10 @@ body.search-visible {
 
 /* 10. Shop */
 
+.home-team {
+	padding-bottom: 200px;
+}
+
 .home-shop-item {
 	background: var(--tg-white);
 	box-shadow: 0px 15px 26px rgba(173, 185, 202, 0.17);
@@ -3476,6 +3480,10 @@ body.search-visible {
 	max-height: 500px;
 	width: 100%;
 }
+.service-box .kine-service {
+	object-position: top;
+	max-height: 600px;
+}
 .blog--post--content {
 	padding: 40px 40px;
 	background: var(--tg-white);
@@ -4431,6 +4439,9 @@ body.search-visible {
 	transition: all 0.2s ease-in-out;
 	margin: 0 0 30px;
 	text-align: center;
+	a {
+		color: black;
+	}
 }
 .contact-box::before,
 .contact-box::after {

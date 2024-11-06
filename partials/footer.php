@@ -206,7 +206,7 @@
         <script src="<?php bloginfo("template_url")?>/assets/js/validator.js"></script>
         <script src="<?php bloginfo("template_url")?>/assets/js/ajax-form.js"></script>
         <script src="<?php bloginfo("template_url")?>/assets/js/wow.min.js"></script>
-        <script src="<?php bloginfo("template_url")?>/assets/js/main.js"></script>
+        <script src="<?php bloginfo("template_url")?>/assets/js/main.js?<?php echo time(); ?>"></script>
         <script>
             SVGInject(document.querySelectorAll("img.injectable"));
         </script>

@@ -20,8 +20,8 @@
         <link rel="stylesheet" href="<?php bloginfo("template_url")?>/assets/css/odometer.css">
         <link rel="stylesheet" href="<?php bloginfo("template_url")?>/assets/css/slick.css">
         <link rel="stylesheet" href="<?php bloginfo("template_url")?>/assets/css/default.css">
-        <link rel="stylesheet" href="<?php bloginfo("template_url")?>/assets/css/style.css">
-        <link rel="stylesheet" href="<?php bloginfo("template_url")?>/assets/css/responsive.css">
+        <link rel="stylesheet" href="<?php bloginfo("template_url")?>/assets/css/style.css?<?php echo time(); ?>">
+        <link rel="stylesheet" href="<?php bloginfo("template_url")?>/assets/css/responsive.css?<?php echo time(); ?>">
         <script src="https://kit.fontawesome.com/0144f75b4e.js" crossorigin="anonymous"></script>
     </head>
     <body>
