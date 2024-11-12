@@ -108,7 +108,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="blog--post--item">
-                    <div class="blog--post--thumb service-box">
+                    <div class="blog--post--thumb service-box wow fadeInUp" data-wow-delay=".3s">
                         <img class='service-photo' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic.png" alt="img">
                     </div>
                     <div class="blog--post--content blog-details-content">
@@ -244,7 +244,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="blog--post--item">
-                    <div class="blog--post--thumb service-box">
+                    <div class="blog--post--thumb service-box wow fadeInUp" data-wow-delay=".3s">
                         <img class='service-photo kine-service' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Orthopedic Physiotherapy.png" alt="img">
                     </div>
                     <div class="blog--post--content blog-details-content">
@@ -371,7 +371,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="blog--post--item">
-                    <div class="blog--post--thumb service-box">
+                    <div class="blog--post--thumb service-box wow fadeInUp" data-wow-delay=".3s">
                         <img class='service-photo kine-service' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Medical office 8.png" alt="img">
                     </div>
                     <div class="blog--post--content blog-details-content">
@@ -463,7 +463,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="blog--post--item">
-                    <div class="blog--post--thumb service-box">
+                    <div class="blog--post--thumb service-box wow fadeInUp" data-wow-delay=".3s">
                         <img class='service-photo' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic_2.png" alt="img">
                     </div>
                     <div class="blog--post--content blog-details-content">

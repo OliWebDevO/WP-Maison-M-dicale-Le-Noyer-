@@ -218,7 +218,7 @@
             <div class="features-products-wrap">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-8">
-                        <div class="features-products-thumb">
+                        <div class="features-products-thumb wow fadeInLeft" data-wow-delay=".2s">
                             <div class="main-img">
                                 <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/9 - electronic receipt.png" alt="img">
                             </div>
@@ -249,7 +249,7 @@
             <div id="activités" class="features-products-wrap">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-8">
-                        <div class="features-products-thumb">
+                        <div class="features-products-thumb wow fadeInRight" data-wow-delay=".2s">
                             <div class="main-img">
                                 <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/yoga.png" alt="img">
                             </div>
@@ -631,7 +631,7 @@
             <div class="features-products-wrap">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-8">
-                        <div class="features-products-thumb">
+                        <div class="features-products-thumb wow fadeInRight" data-wow-delay=".2s">
                             <div class="main-img">
                                 <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/book.png" alt="img">
                             </div>
@@ -654,7 +654,7 @@
             <div id="activités" class="features-products-wrap">
                 <div class="row justify-content-center">
                     <div class="col-lg-6 col-md-8">
-                        <div class="features-products-thumb">
+                        <div class="features-products-thumb wow fadeInLeft" data-wow-delay=".2s">
                             <div class="main-img">
                                 <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/map.png" alt="img">
                             </div>

@@ -37,7 +37,7 @@
                                 Le Noyer qu'est ce que c'est ?
                                 <img src="<?php bloginfo("template_url")?>/assets/img/icons/sub_right.svg" class="injectable" alt="img">
                             </div>
-                            <h2 class="title">une maison médicale accessible</h2>
+                            <h2 class="title">une maison médicale aux multiples facettes</h2>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,12 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="ingredients-item-wrap reverse-item">
-                            <div class="ingredients-item-two">
+                            <!-- <div class="ingredients-item-two">
+                                <div class="ingredients-content-two">
+                                    <h3 class="title">Des Soins Globaux</h3>
+                                </div>
+                            </div> -->
+                            <div class="ingredients-item-two wow fadeInUp" data-wow-delay=".1s">
                                 <div class="ingredients-icon">
                                     <i class="flaticon-vitamins"></i>
                                 </div>
@@ -58,7 +63,7 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum.</p>
                                 </div>
                             </div>
-                            <div class="ingredients-item-two">
+                            <div class="ingredients-item-two wow fadeInUp" data-wow-delay=".2s">
                                 <div class="ingredients-icon">
                                     <i class="flaticon-vitamin"></i>
                                 </div>
@@ -67,7 +72,7 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum.</p>
                                 </div>
                             </div>
-                            <div class="ingredients-item-two">
+                            <div class="ingredients-item-two wow fadeInUp" data-wow-delay=".3s">
                                 <div class="ingredients-icon">
                                     <i class="flaticon-supplement"></i>
                                 </div>
@@ -80,7 +85,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 order-3">
                         <div class="ingredients-item-wrap">
-                            <div class="ingredients-item-two">
+                            <div class="ingredients-item-two wow fadeInUp" data-wow-delay=".4s">
                                 <div class="ingredients-icon">
                                     <i class="flaticon-vitamins"></i>
                                 </div>
@@ -89,7 +94,7 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum.</p>
                                 </div>
                             </div>
-                            <div class="ingredients-item-two">
+                            <div class="ingredients-item-two wow fadeInUp" data-wow-delay=".5s">
                                 <div class="ingredients-icon">
                                     <i class="flaticon-vitamin"></i>
                                 </div>
@@ -98,7 +103,7 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ipsum.</p>
                                 </div>
                             </div>
-                            <div class="ingredients-item-two">
+                            <div class="ingredients-item-two wow fadeInUp" data-wow-delay=".6s">
                                 <div class="ingredients-icon">
                                     <i class="flaticon-supplement"></i>
                                 </div>
@@ -121,7 +126,7 @@
                     <div class="features-products-wrap">
                         <div class="row justify-content-center">
                             <div class="col-lg-6 col-md-8">
-                                <div class="features-products-thumb">
+                                <div class="features-products-thumb wow fadeInLeft" data-wow-delay=".2s">
                                     <div class="main-img">
                                         <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic2.png" alt="img">
                                     </div>
@@ -155,7 +160,7 @@
                     <div id="activités" class="features-products-wrap">
                         <div class="row justify-content-center">
                             <div class="col-lg-6 col-md-8">
-                                <div class="features-products-thumb">
+                                <div class="features-products-thumb wow fadeInRight" data-wow-delay=".2s">
                                     <div class="main-img">
                                         <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/approche.png" alt="img">
                                     </div>
@@ -175,7 +180,7 @@
                     <div class="features-products-wrap">
                         <div class="row justify-content-center">
                             <div class="col-lg-6 col-md-8">
-                                <div class="features-products-thumb">
+                                <div class="features-products-thumb wow fadeInLeft" data-wow-delay=".2s">
                                     <div class="main-img">
                                         <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic_2.png" alt="img">
                                     </div>
