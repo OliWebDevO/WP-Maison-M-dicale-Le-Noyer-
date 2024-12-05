@@ -347,19 +347,6 @@
                             <div class="home-team-item">
                                 <div class="photo-team">
                                     <a href="shop-details.html">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Smiling Woman_PNG.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="home-shop-content photo-team-content">
-                                    <h4 class="title"><a href="shop-details.html">Marie-Joëlle Plumat</a></h4>
-                                    <span class="home-shop-price">Accueillante</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="home-team-item">
-                                <div class="photo-team">
-                                    <a href="shop-details.html">
                                         <img src="<?php bloginfo("template_url")?>/assets/img/Team/sana.jpeg" alt="img">
                                     </a>
                                 </div>
@@ -560,6 +547,19 @@
                                 </div>
                                 <div class="home-shop-content photo-team-content">
                                     <h4 class="title"><a href="shop-details.html">Koen De Clercq</a></h4>
+                                    <span class="home-shop-price">Gestionnaire Administratif</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="home-team-item">
+                                <div class="photo-team">
+                                    <a href="shop-details.html">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/roman.png" alt="img">
+                                    </a>
+                                </div>
+                                <div class="home-shop-content photo-team-content">
+                                    <h4 class="title"><a href="shop-details.html">Roman Parmentier</a></h4>
                                     <span class="home-shop-price">Gestionnaire Administratif</span>
                                 </div>
                             </div>
