@@ -334,7 +334,7 @@
                             <div class="home-team-item">
                                 <div class="photo-team">
                                     <a href="shop-details.html">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Poker Face_PNG.png" alt="img">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/roman.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content">
@@ -386,7 +386,7 @@
                             <div class="home-team-item">
                                 <div class="photo-team">
                                     <a href="shop-details.html">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Poker Face_PNG.png" alt="img">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/benjamin.png" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content">
@@ -516,19 +516,6 @@
                             <div class="home-team-item">
                                 <div class="photo-team">
                                     <a href="shop-details.html">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Poker Face_PNG.png" alt="img">
-                                    </a>
-                                </div>
-                                <div class="home-shop-content photo-team-content">
-                                    <h4 class="title"><a href="shop-details.html">Lars Denayer</a></h4>
-                                    <span class="home-shop-price">Coach du Mouvement</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3">
-                            <div class="home-team-item">
-                                <div class="photo-team">
-                                    <a href="shop-details.html">
                                         <img src="<?php bloginfo("template_url")?>/assets/img/Team/laura.png" alt="img">
                                     </a>
                                 </div>
@@ -555,7 +542,7 @@
                             <div class="home-team-item">
                                 <div class="photo-team">
                                     <a href="shop-details.html">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Smiling Woman_PNG.png" alt="img">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/nina.jpg" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content">

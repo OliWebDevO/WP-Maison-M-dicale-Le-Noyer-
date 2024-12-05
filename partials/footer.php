@@ -36,16 +36,16 @@
                                 <a href="https://brusselshealthnetwork.be/" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/logo-rsb.png" alt="brand"></a>
                             </div>
                         </div>
-                        <!-- <div class="col-2">
+                        <div class="col-2">
                             <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/" alt="brand"></a>
+                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/psybru.png" alt="brand"></a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/" alt="brand"></a>
+                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/roibaudoin.png" alt="brand"></a>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>

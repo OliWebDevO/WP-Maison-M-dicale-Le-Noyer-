@@ -537,34 +537,6 @@
                 <!-- Equipe-Kinésithérapie-area-end -->
 
                 <!-- Equipe-Medecin-area -->
-                <section id="mouvement" class="home-shop-area team-area pt-130">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6 col-md-8">
-                                <div class="section-title section-title-two mb-60">
-                                    <h2 class="title">Coach Du Mouvement</h2>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row home-shop-active">
-                            <div class="col-xl-3">
-                                <div class="home-team-item">
-                                    <div class="photo-team">
-                                        <a href="shop-details.html">
-                                            <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Poker Face_PNG.png" alt="img">
-                                        </a>
-                                    </div>
-                                    <div class="home-shop-content photo-team-content">
-                                        <h4 class="title"><a href="shop-details.html">Lars Denayer</a></h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Equipe-Medecin-area-end -->
-
-                <!-- Equipe-Medecin-area -->
                 <section id="infirmier" class="home-shop-area team-area pt-130">
                     <div class="container">
                         <div class="row align-items-center">

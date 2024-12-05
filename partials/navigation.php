@@ -17,7 +17,7 @@
                                             </li>
                                             <li><a href="<?php bloginfo("url")?>/about" class="section-link">Fonctionnement</a></li>
                                             <!-- <li><a href="<?php bloginfo("url")?>/fonctionnement" class="section-link">Fonctionnement</a></li> -->
-                                            <li><a href="<?php bloginfo("url")?>/services" class="section-link">Services</a>
+                                            <li><a href="<?php bloginfo("url")?>/services" class="section-link">Consultations</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="<?php bloginfo("url")?>/services#servicemedecine">Médecine Générale</a></li>
                                                     <li><a href="<?php bloginfo("url")?>/services#servicekine">Kinésithérapie</a></li>
@@ -28,7 +28,7 @@
                                             <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/activites">Activités</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="<?php bloginfo("url")?>/activites#ponctuel">Activités ponctuelles</a></li>
-                                                    <li><a href="<?php bloginfo("url")?>/activites#recurent">Activités récurentes</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/activites#recurent">Activités récurrentes</a></li>
                                                 </ul>
                                             </li>
                                             <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/equipe" class="section-link">Équipe</a>
@@ -37,7 +37,6 @@
                                                     <li><a href="<?php bloginfo("url")?>/equipe#medecin">Médecins</a></li>
                                                     <li><a href="<?php bloginfo("url")?>/equipe#assistant">Assistant-e-s en Médecine Générale</a></li>
                                                     <li><a href="<?php bloginfo("url")?>/equipe#kine">Kinésithérapeutes</a></li>
-                                                    <li><a href="<?php bloginfo("url")?>/equipe#mouvement">Coach du Mouvement</a></li>
                                                     <li><a href="<?php bloginfo("url")?>/equipe#infirmier">Infirmier-ères</a></li>
                                                     <li><a href="<?php bloginfo("url")?>/equipe#as">Assistante Sociale</a></li>
                                                     <li><a href="<?php bloginfo("url")?>/equipe#admin">Gestionnaires Administratifs</a></li>

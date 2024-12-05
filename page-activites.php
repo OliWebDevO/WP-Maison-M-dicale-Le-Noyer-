@@ -9,7 +9,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-10">
                             <div class="breadcrumb-content text-center">
-                                <h2 class="title">Activités</h2>
+                                <h2 class="title">Activités de promotion de la santé</h2>
                                 <nav aria-label="Breadcrumbs" class="breadcrumb-trail">
                                     <ul class="breadcrumb">
                                         <li class="breadcrumb-item trail-item trail-begin">
@@ -160,7 +160,7 @@
                                     liste des activités
                                     <img src="<?php bloginfo("template_url")?>/assets/img/icons/sub_right.svg" class="injectable" alt="img">
                                 </span>
-                                <h2 class="title">Activités récurentes</h2>
+                                <h2 class="title">Activités récurrentes</h2>
                             </div>
                         </div>
                     </div>
