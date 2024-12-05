@@ -50,7 +50,6 @@
                                     </div>
                                     <div class="features-content">
                                         <h4 class="title">Médecine Générale</h4>
-                                        <p>Des cabinets de médecine générale ouvert à tous</p>
                                     </div>
                                 </div>
                             </a>
@@ -63,7 +62,6 @@
                                     </div>
                                     <div class="features-content">
                                         <h4 class="title">Kinésithérapie</h4>
-                                        <p>Des cabinets de kinésithérapie à votre disposition</p>
                                     </div>
                                 </div>
                             </a>
@@ -76,7 +74,6 @@
                                     </div>
                                     <div class="features-content">
                                         <h4 class="title">Infirmerie</h4>
-                                        <p>Des soins d'infirmerie en fonction de vos besoins.</p>
                                     </div>
                                 </div>
                             </a>
@@ -89,7 +86,6 @@
                                     </div>
                                     <div class="features-content">
                                         <h4 class="title">Assistance sociale</h4>
-                                        <p>Un cabinet d'assistante social pour vous aider dans vos démarches administratives</p>
                                     </div>
                                 </div>
                             </a>
