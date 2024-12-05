@@ -381,7 +381,7 @@ label {
 	height: auto;
 }
 .menu-area {
-	padding: 23px 0;
+	padding: 10px 0;
 }
 .menu-nav {
 	display: flex;
@@ -389,9 +389,16 @@ label {
 	flex-wrap: wrap;
 	justify-content: flex-start;
 }
-.logo img {
-	max-width: 80px;
+.logo-nav-img {
+	max-width: 120px;
 	border-radius: 50%;
+}
+.logo-footer {
+	max-width: 120px;
+	border-radius: 50%;
+}
+.small-logo-nav {
+	max-width: 80px;
 }
 .navbar-wrap {
 	display: flex;
@@ -997,7 +1004,7 @@ label {
 	border-radius: 50%;
 	font-size: 25px;
 	cursor: pointer;
-	margin-top: -2px;
+	margin-top: 15px;
 }
 
 
@@ -4461,7 +4468,21 @@ body.search-visible {
 	a {
 		color: black;
 	}
+	img {
+		max-height: 150px;
+		object-fit: cover;
+		object-position: center;
+	}
 }
+.reseau-box {
+	height: 350px;
+	.reseau-bureau {
+		border-radius: 50%;
+		width: 150px;
+		height: 150px;
+	}
+}
+
 .contact-big {
 	p {
 		color: black;

@@ -673,7 +673,6 @@
                             <p> <i class="fa-solid fa-check"></i> Sur place</p>
                             <p> <i class="fa-solid fa-check"></i> Par Mail</p>
                             <p> <i class="fa-solid fa-check"></i> Par téléphone </p>
-                            <p> <i class="fa-solid fa-check"></i> Via notre newsletter </p>
                             <div class="features-product-bottom">
                                 <a href="<?php bloginfo("url")?>/contact" class="btn">En Savoir Plus</a>
                             </div>

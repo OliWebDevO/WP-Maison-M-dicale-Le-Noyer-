@@ -150,7 +150,7 @@
 
                                     <div class="footer-social">
                                             <div class="footer-logo logo">
-                                                <a href="index.html"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
+                                                <a href="index.html"><img class='logo-footer' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
                                             </div>
                                             <a href="#"><i class="fab fa-facebook-f"></i></a>
                                         </div>

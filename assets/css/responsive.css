@@ -1113,7 +1113,9 @@
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 767.98px) {
-
+.logo img {
+	max-width: 80px;
+}
 .custom-container {
     max-width: 100%;
 }
@@ -1637,6 +1639,10 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+.logo img {
+	max-width: 80px;
+	border-radius: 50%;
+}
 .custom-container {
     max-width: 540px;
 }
