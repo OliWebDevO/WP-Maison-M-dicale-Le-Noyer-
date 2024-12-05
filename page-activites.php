@@ -9,7 +9,7 @@
                     <div class="row justify-content-center">
                         <div class="col-xl-10">
                             <div class="breadcrumb-content text-center">
-                                <h2 class="title">Activités de promotion de la santé</h2>
+                                <h2 class="title">Activités de promotion à la santé</h2>
                                 <nav aria-label="Breadcrumbs" class="breadcrumb-trail">
                                     <ul class="breadcrumb">
                                         <li class="breadcrumb-item trail-item trail-begin">
