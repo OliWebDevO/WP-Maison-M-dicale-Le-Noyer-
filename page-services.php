@@ -15,7 +15,7 @@
                                 <li class="breadcrumb-item trail-item trail-begin">
                                     <a href="<?php bloginfo("url")?>"><span>Accueil</span></a>
                                 </li>
-                                <li class="breadcrumb-item trail-item trail-end"><span>Services</span></li>
+                                <li class="breadcrumb-item trail-item trail-end"><span>Consultations</span></li>
                             </ul>
                         </nav>
                     </div>
