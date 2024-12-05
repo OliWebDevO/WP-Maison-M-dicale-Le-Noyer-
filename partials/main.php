@@ -13,7 +13,7 @@
         </div>
     </div> -->
     <!-- banner-area -->
-    <div class="video-area video-bg page-bg" data-background="<?php bloginfo("template_url")?>/assets/img/lenoyerentre.png">
+    <div class="video-area video-bg page-bg home-bg" data-background="<?php bloginfo("template_url")?>/assets/img/lenoyerentre.png">
         <div class="video-bg-overlay"></div>
                     <!-- banner-area -->
 
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <section class="banner-area">
+    <!-- <section class="banner-area">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xxl-8 col-xl-7 col-lg-8 col-md-10">
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="row justify-content-center">
+            <div class="row justify-content-center">
                 <div class="col-xxl-8 col-xl-7 col-lg-8 col-md-10">
                     <div class="banner-content text-center">
                         <p class="banner-caption">.. 
@@ -48,7 +48,7 @@
                         <a href="shop.html" class="btn btn-two">Prendre Rendez-vous</a>
                     </div>
                 </div>
-            </div> -->
+            </div>
             <div class="row">
                 <div class="col-12">
                     <div class="banner-images text-center">
@@ -58,18 +58,6 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="banner-shape one">
-            <img src="<?php bloginfo("template_url")?>/assets/img/banner/banner_shape01.png" alt="shape" class="wow bannerFadeInLeft" data-wow-delay=".2s" data-wow-duration="2s">
-        </div>
-        <div class="banner-shape two">
-            <img src="<?php bloginfo("template_url")?>/assets/img/banner/banner_shape02.png" alt="shape" class="wow bannerFadeInRight" data-wow-delay=".2s" data-wow-duration="2s">
-        </div>
-        <div class="banner-shape three">
-            <img src="<?php bloginfo("template_url")?>/assets/img/banner/banner_shape03.png" alt="shape" class="wow bannerFadeInDown" data-wow-delay=".2s" data-wow-duration="2s">
-        </div>
-        <div class="banner-shape four">
-            <img src="<?php bloginfo("template_url")?>/assets/img/banner/banner_shape04.png" alt="shape" class="wow bannerFadeInDown" data-wow-delay=".2s" data-wow-duration="2s">
-        </div> -->
         <div class="banner-shape one">
             <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/TDV_M63_01.png" alt="shape" class="wow bannerFadeInLeft" data-wow-delay=".2s" data-wow-duration="2s">
         </div>
@@ -82,7 +70,7 @@
         <div class="banner-shape four">
             <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/TDV_M63_04.png" alt="shape" class="wow bannerFadeInDown" data-wow-delay=".2s" data-wow-duration="2s">
         </div>
-    </section>
+    </section> -->
     <!-- contact-area -->
     <section id="lenoyer" class="contact-area">
         <div class="container">
@@ -131,6 +119,40 @@
                             </div>
                         </a>
                     </div>
+                    <div class="col-lg-4 col-md-6 col-sm-9">
+                        <a href="mailto:info@lenoyer.be">
+                            <div class="contact-box contact-big">
+                                <div class="contact-icon">
+                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h5 class="title">Horaires</h5>
+                                    <p class="contact-desc"></p>
+                                    <p><strong>Lundi :</strong> <br> De 8h à 12h30 et de 15h à 19h</p>
+                                    <p> <strong>Mardi & Mercredi :</strong> <br> De 8h à 12h30 et de 13h à 19h</p>
+                                    <p> <strong>Jeudi & Vendredi :</strong> <br> De 8h à 12h30 et de 14h à 19h</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-8 col-md-6 col-sm-9">
+                        <a href="mailto:info@lenoyer.be">
+                            <div class="contact-box contact-big">
+                                <div class="contact-icon">
+                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
+                                    <i class="fa-regular fa-clock"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h5 class="title">Garde</h5>
+                                    <p class="contact-desc"></p>
+                                    <p>L'accueil reste joignable durant les heures de fermeture du temps de midi pour les urgences médicales.</p>
+                                    <p>Après 19h, les week-ends et les jours fériés ; Appelez la garde bruxelloise au : 1733</p>
+                                    <p>Ou rendez-vous aux postes de garde : <br> Chaussée de Haecht 579, 1030 schaerbeek <br> Rue d'Oultremont 54, 1040 etterbeek</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -160,7 +182,6 @@
                                         </div>
                                         <div class="features-content">
                                             <h4 class="title">Médecine Générale</h4>
-                                            <p>Des cabinets de médecine générale ouvert à tous</p>
                                         </div>
                                     </div>
                                 </a>
@@ -173,7 +194,6 @@
                                         </div>
                                         <div class="features-content">
                                             <h4 class="title">Kinésithérapie</h4>
-                                            <p>Des cabinets de kinésithérapie à votre disposition</p>
                                         </div>
                                     </div>
                                 </a>
@@ -186,7 +206,6 @@
                                         </div>
                                         <div class="features-content">
                                             <h4 class="title">Infirmerie</h4>
-                                            <p>Des soins d'infirmerie en fonction de vos besoins.</p>
                                         </div>
                                     </div>
                                 </a>
@@ -199,7 +218,6 @@
                                         </div>
                                         <div class="features-content">
                                             <h4 class="title">Assistance sociale</h4>
-                                            <p>Un cabinet d'assistante social pour vous aider dans vos démarches administratives</p>
                                         </div>
                                     </div>
                                 </a>

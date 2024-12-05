@@ -117,7 +117,13 @@
                         </div>
                         <div class="post-text">
                             <div class="blog-details-wrap">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                            <p>Mon médecin généraliste s’intéresse à tous les aspects de ma santé. Il vérifie des indicateurs de santé en lien avec mon âge, mon mode de vie... Il est lié au secret professionnel. Mon médecin généraliste ne fait pas que me soigner, il fait également de la médecine préventive. C’est une source d’informations.</p>
+
+                            <p>Pour aller voir un spécialiste, je peux passer par l’avis de mon médecin généraliste, cela m’évitera des examens inutiles. Certains médecins généralistes sont plus expérimentés dans un domaine ou un autre (gynécologie, pédiatrie, dermatologie,..). 95% des problèmes de santé peuvent être soignés par mon médecin généraliste.</p>
+
+                            <p>Il passe le relais à un spécialiste si nécessaire mais il continue à me suivre. Il peut obtenir tous les rapports que possèdent d’autres médecins à propos de moi. Les médicaments prescrits par un spécialiste peuvent être renouvelés par lui.</p>
+
+                           <p> Il reçoit en consultation à la maison médicale et à domicile.</p>
                             </div>
                             <div class="blog-details-wrap">
                                 <h3 class="title">Prise en charge</h3>
@@ -253,7 +259,8 @@
                         </div>
                         <div class="post-text">
                             <div class="blog-details-wrap">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                            <p>Pour aller chez le kiné il faut avoir une prescription du médecin. Ensuite, il y a un rendez-vous en consultation et se déplace également à domicile lorsque c’est nécessaire. La prise en charge en kinésithérapie cible principalement les troubles d’origines neuro-musculo-squelettique en travaillant avec le patient pour soulager les symptômes aigus ou chroniques et retrouver sa fonctionnalité.</p>
+                            <p>Mais vous pouvez aussi nous solliciter pour des troubles de l’équilibre (vestibulaire ou autre), de la mâchoire ou de la tête et du cou par exemple. Bienvenue aussi aux mamans en pré - et post – natal ainsi que tous ceux qui souhaitent un accompagnement à la remise en mouvement.</p>
                             </div>
                             <div class="blog-details-wrap">
                                 <h3 class="title">Prise en charge</h3>
@@ -380,7 +387,9 @@
                         </div>
                         <div class="post-text">
                             <div class="blog-details-wrap">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                            <p>Les infirmier.e.s sont sur le terrain : à la fois à la maison médicale sur rendez-vous et lors du dispensaire et à domicile. Elles/ils sont en contact direct avec le patient. La transmission d’informations et l’observation constitue d’ailleurs des rôles primordiaux de l’infirmier.e.</p>
+                            <p>Les types de soins réalisés à la maison médicale sont très variés, comme les prises de sang, les vaccins, le retrait de bouchons d’oreilles, des injections, la prise de la tension artérielle, le suivi diabétique avec le contrôle des pieds, des consultations d’éducation à la santé, … Les soins réalisés à domicile sont davantage des aide à la toilette, le remplissage de piluliers, la prise de paramètres, les soins de plaies dont ceux post-opératoires, …</p>
+                            <p>Nos infis sont aussi formés à l’accompagnement de fin de vie.</p>
                             </div>
                             <div class="blog-details-wrap">
                                 <h3 class="title">Prise en charge</h3>
@@ -472,7 +481,13 @@
                         </div>
                         <div class="post-text">
                             <div class="blog-details-wrap">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                            <p>L’assistante sociale participe à la prise en charge globale du.de la patient.e dans la maison médicale et peut proposer des solutions complémentaires aux soins prodigués par les soingnant.e.s. Nous essayerons de trouver ensemble des réponses adéquates à vos demandes. L’assistante sociale prend en compte les aspects plus larges participant à votre santé (logement, emploi, environnement, budget…).</p>
+
+                            <p>- Un travail social individuel : information/orientation vers les services adéquats et d’accompagnement </p>
+
+                            <p>- Un travail de réseau : en collaboration avec les associations du quartier et les services spécialisés, pour un soutien de première ligne </p>
+
+                            <p>C’est donc un accompagnement varié : en cas de problèmes financiers ; pour vous aider dans la mise en place d’une aide à la maison ; vous informer quant à des questions juridiques générales ; vous accompagner pour faire valoir vos droits à des allocations ou à des avantages sociaux (allocations de chômage, allocations pour personnes handicapées, Revenu d’Intégration Sociale…) ; vous accompagner pour régler des problèmes administratifs (mutuelle, ONEM, CPAS, commune ou autres institutions) et la gestion de votre quotidien.</p>
                             </div>
                             <div class="blog-details-wrap">
                                 <h3 class="title">Prise en charge</h3>

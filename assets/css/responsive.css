@@ -1173,7 +1173,6 @@
 }
 .features-item {
 	margin: 0 0 50px !important;
-	text-align: center;
 }
 .features-icon {
 	display: inline-flex;
@@ -1183,6 +1182,9 @@
 }
 .fp-shapes-wrap {
 	display: none;
+}
+.features-content {
+	margin-top: 40px;
 }
 .features-products-thumb::before {
 	width: 400px;

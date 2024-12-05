@@ -13,37 +13,37 @@
                     <div class="row brand-active">
                         <div class="col-2">
                             <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/Logo_Francophones_Bruxelles.png" alt="brand"></a>
+                                <a href="https://ccf.brussels/" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/Logo_Francophones_Bruxelles.png" alt="brand"></a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/fede.png" alt="brand"></a>
+                                <a href="https://www.maisonmedicale.org/" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/fede.png" alt="brand"></a>
                             </div>
                         </div>
                         <div class="col-3">
                             <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/ogo-rpmstib.png" alt="brand"></a>
+                                <a href="https://www.genrespluriels.be/Reseau-Psycho-Medico-Social-trans-inter-belge" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/ogo-rpmstib.png" alt="brand"></a>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="brand-item">
+                                <a href="https://stop-violence.brussels/" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/stop.png" alt="brand"></a>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="brand-item">
+                                <a href="https://brusselshealthnetwork.be/" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/logo-rsb.png" alt="brand"></a>
                             </div>
                         </div>
                         <!-- <div class="col-2">
                             <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/brand/brand_04.png" alt="brand"></a>
+                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/" alt="brand"></a>
                             </div>
                         </div>
                         <div class="col-2">
                             <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/brand/brand_05.png" alt="brand"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/brand/brand_06.png" alt="brand"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/brand/brand_03.png" alt="brand"></a>
+                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/" alt="brand"></a>
                             </div>
                         </div> -->
                     </div>
@@ -96,20 +96,15 @@
                                         
                                         <div class="footer-text">
                                             <h4 class="fw-title">Horaires</h4>
-                                            <p>Lundi : De 8h à 12h30 et de 15h à 19h</p>
-                                            <p> Mardi & Mercredi : De 8h à 12h30 et de 13h à 19h</p>
-                                            <p> Jeudi & Vendredi : De 8h à 12h30 et de 14h à 19h</p>
+                                            <p><strong>Lundi</strong> : De 8h à 12h30 et de 15h à 19h</p>
+                                            <p> <strong>Mardi & Mercredi</strong> : De 8h à 12h30 et de 13h à 19h</p>
+                                            <p> <strong>Jeudi & Vendredi</strong> : De 8h à 12h30 et de 14h à 19h</p>
+                                            <!-- <p>L'accueil reste joignable durant les heures de fermeture du temps de midi pour les urgences médicales.</p> -->
+                                            <p>Après 19h, les week-ends et les jours fériés ; Appelez la garde bruxelloise au : 1733</p>
+                                            <p>Ou rendez-vous aux postes de garde : <br> Chaussée de Haecht 579, 1030 schaerbeek <br> Rue d'Oultremont 54, 1040 etterbeek</p>
+                                            <!-- <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/horaires.png" alt=""> -->
                                         </div>
 
-                                        <div class="footer-social">
-                                            <div class="footer-logo logo">
-                                                <a href="index.html"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
-                                            </div>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -152,6 +147,13 @@
                                             <li class="mail"><i class="fas fa-envelope"></i> info@lenoyer.be</li>
                                         </ul>
                                     </div>
+
+                                    <div class="footer-social">
+                                            <div class="footer-logo logo">
+                                                <a href="index.html"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
+                                            </div>
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +166,7 @@
                     <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/TDV_M63_06.png" alt="img" class="wow fadeInRight" data-wow-delay=".3s" data-wow-duration="1s">
                 </div> -->
             </div>
-            <div class="copyright-wrap">
+            <!-- <div class="copyright-wrap">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-md-7">
@@ -179,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </footer>
         <!-- Footer-area-end -->
 
