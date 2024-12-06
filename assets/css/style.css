@@ -4815,6 +4815,7 @@ body.search-visible {
 	margin: 0 0;
 	color: var(--tg-white);
 	opacity: .9;
+	text-align: center;
 }
 
 /* 22. Preloader */

@@ -166,6 +166,72 @@
                     </div>
                     <div class="tg-features-inner">
                         <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".6s">
+                                <div class="tg-features-item">
+                                    <div class="tg-features-icon">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - gym douce.png" alt="">
+                                    </div>
+                                    <div class="tg-features-content">
+                                        <h4 class="title">Gym Douce <br> Seniors</h4>
+                                        <p> 
+                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
+                                            Lundi de 10h45 à 11h45
+                                        </p>
+                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
+                                            Petite participation financière demandée
+                                        </p>
+                                        <p>
+                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
+                                            Inscription obligatoire
+                                        </p>
+                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".6s">
+                                <div class="tg-features-item">
+                                    <div class="tg-features-icon">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - gym douce.png" alt="">
+                                    </div>
+                                    <div class="tg-features-content">
+                                        <h4 class="title">Gym Douce <br> Remise en forme</h4>
+                                        <p> 
+                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
+                                            Lundi de 12h00 à 13h00
+                                        </p>
+                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
+                                            Petite participation financière demandée
+                                        </p>
+                                        <p>
+                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
+                                            Inscription obligatoire
+                                        </p>
+                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".2s">
+                                <div class="tg-features-item">
+                                    <div class="tg-features-icon">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - atelier couture.png" alt="">
+                                    </div>
+                                    <div class="tg-features-content">
+                                        <h4 class="title">Atelier Couture</h4>
+                                        <p> 
+                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
+                                            Mardi & Mercredi de 11h00 à 12h00
+                                        </p>
+                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
+                                            Petite participation financière demandée
+                                        </p>
+                                        <p>
+                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
+                                            Inscription obligatoire
+                                        </p>
+                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".2s">
                                 <div class="tg-features-item">
                                     <div class="tg-features-icon">
@@ -210,50 +276,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".6s">
-                                <div class="tg-features-item">
-                                    <div class="tg-features-icon">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - gym douce.png" alt="">
-                                    </div>
-                                    <div class="tg-features-content">
-                                        <h4 class="title">Gym Douce</h4>
-                                        <p> 
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
-                                            Lundi de 11h00 à 12h00
-                                        </p>
-                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                            Petite participation financière demandée
-                                        </p>
-                                        <p>
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                            Inscription obligatoire
-                                        </p>
-                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".2s">
-                                <div class="tg-features-item">
-                                    <div class="tg-features-icon">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - atelier couture.png" alt="">
-                                    </div>
-                                    <div class="tg-features-content">
-                                        <h4 class="title">Atelier Couture</h4>
-                                        <p> 
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
-                                            Mardi & Mercredi de 11h00 à 12h00
-                                        </p>
-                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                            Petite participation financière demandée
-                                        </p>
-                                        <p>
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                            Inscription obligatoire
-                                        </p>
-                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
-                                    </div>
-                                </div>
-                            </div>
                             <!-- <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="tg-features-item">
                                     <div class="tg-features-icon">
@@ -269,7 +291,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="tg-features-item">
                                     <div class="tg-features-icon">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - atelier cuisine.png" alt="">
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - ouverture.png" alt="">
                                     </div>
                                     <div class="tg-features-content">
                                         <h4 class="title">Petit dejeuner papote</h4>

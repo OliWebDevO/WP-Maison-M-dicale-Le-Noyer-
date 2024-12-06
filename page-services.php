@@ -121,7 +121,7 @@
 
                            <p> Il reçoit en consultation à la maison médicale et à domicile.</p>
                             </div>
-                            <div class="blog-details-wrap">
+                            <!-- <div class="blog-details-wrap">
                                 <h3 class="title">Prise en charge</h3>
                                 <div class="b-details-list">
                                     <ul class="list-wrap">
@@ -134,18 +134,18 @@
                                         <li><i class="fas fa-check"></i>L’uro-gynécologie de base : rééducation du périnée après l’accouchement, incontinence urinaire</li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
                             <!-- <div class="blog-details-post-thumb">
                                 <img src="<?php bloginfo("template_url")?>/assets/img/activités/abbaye.jpg" alt="img">
                             </div> -->
-                            <div class="blog-details-wrap">
+                            <!-- <div class="blog-details-wrap">
                                 <h3 class="title">Consultations</h3>
                                 <p>Un premier rendez-vous pour les séances de kinésithérapie est donné par les accueillantes. Les autres rendez-vous sont donnés par les kinés eux-mêmes selon leur disponibilité.</p>
                                 <p>Il est impératif d’avoir une prescription d’un médecin pour commencer de la kinésithérapie. Cette prescription doit être présentée à l’accueil ou lors de la première sance de kinésithérapie.</p>
-                            </div>
+                            </div> -->
                             <div class="blog-details-wrap">
                                 <h3 class="title">Retard et annulation</h3>
-                                <p>Les patients en retard de 10 minutes à leur rendez-vous ne sont plus reçus par le kinésithérapeute, ceci afin de garantir à tous (kinésithérapeute comme patient) une consultation dans de bonnes conditions.</p>
+                                <p>Les patients en retard de 10 minutes à leur rendez-vous ne sont plus reçus par le médecin, ceci afin de garantir à tous (médecin comme patient) une consultation dans de bonnes conditions.</p>
                                 <p>En cas d’empêchement, il est important de prévenir la maison médicale le plus rapidement possible afin que le rendez-vous prévu puisse être proposé à un autre patient et qu’un nouveau rendez-vous soit organisé pour le patient empêché.</p>
                             </div>
                             <div class="blog-details-wrap">
@@ -196,7 +196,7 @@
                                             <div class="home-team-item">
                                                 <div class="photo-team">
                                                     <a href="shop-details.html">
-                                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Poker Face_PNG.png" alt="img">
+                                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/benjamin.png" alt="img">
                                                     </a>
                                                 </div>
                                                 <div class="home-shop-content photo-team-content">
@@ -387,7 +387,7 @@
                             <p>Les types de soins réalisés à la maison médicale sont très variés, comme les prises de sang, les vaccins, le retrait de bouchons d’oreilles, des injections, la prise de la tension artérielle, le suivi diabétique avec le contrôle des pieds, des consultations d’éducation à la santé, … Les soins réalisés à domicile sont davantage des aide à la toilette, le remplissage de piluliers, la prise de paramètres, les soins de plaies dont ceux post-opératoires, …</p>
                             <p>Nos infis sont aussi formés à l’accompagnement de fin de vie.</p>
                             </div>
-                            <div class="blog-details-wrap">
+                            <!-- <div class="blog-details-wrap">
                                 <h3 class="title">Prise en charge</h3>
                                 <div class="b-details-list">
                                     <ul class="list-wrap">
@@ -400,15 +400,15 @@
                                         <li><i class="fas fa-check"></i>L’uro-gynécologie de base : rééducation du périnée après l’accouchement, incontinence urinaire</li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="blog-details-wrap">
+                            </div> -->
+                            <!-- <div class="blog-details-wrap">
                                 <h3 class="title">Consultations</h3>
                                 <p>Un premier rendez-vous pour les séances de kinésithérapie est donné par les accueillantes. Les autres rendez-vous sont donnés par les kinés eux-mêmes selon leur disponibilité.</p>
                                 <p>Il est impératif d’avoir une prescription d’un médecin pour commencer de la kinésithérapie. Cette prescription doit être présentée à l’accueil ou lors de la première sance de kinésithérapie.</p>
-                            </div>
+                            </div> -->
                             <div class="blog-details-wrap">
                                 <h3 class="title">Retard et annulation</h3>
-                                <p>Les patients en retard de 10 minutes à leur rendez-vous ne sont plus reçus par le kinésithérapeute, ceci afin de garantir à tous (kinésithérapeute comme patient) une consultation dans de bonnes conditions.</p>
+                                <p>Les patients en retard de 10 minutes à leur rendez-vous ne sont plus reçus par l'infirmier.e.s, ceci afin de garantir à tous (infirmier.e comme patient) une consultation dans de bonnes conditions.</p>
                                 <p>En cas d’empêchement, il est important de prévenir la maison médicale le plus rapidement possible afin que le rendez-vous prévu puisse être proposé à un autre patient et qu’un nouveau rendez-vous soit organisé pour le patient empêché.</p>
                             </div>
                             <div class="blog-details-wrap">
@@ -485,7 +485,7 @@
 
                             <p>C’est donc un accompagnement varié : en cas de problèmes financiers ; pour vous aider dans la mise en place d’une aide à la maison ; vous informer quant à des questions juridiques générales ; vous accompagner pour faire valoir vos droits à des allocations ou à des avantages sociaux (allocations de chômage, allocations pour personnes handicapées, Revenu d’Intégration Sociale…) ; vous accompagner pour régler des problèmes administratifs (mutuelle, ONEM, CPAS, commune ou autres institutions) et la gestion de votre quotidien.</p>
                             </div>
-                            <div class="blog-details-wrap">
+                            <!-- <div class="blog-details-wrap">
                                 <h3 class="title">Prise en charge</h3>
                                 <div class="b-details-list">
                                     <ul class="list-wrap">
@@ -498,21 +498,21 @@
                                         <li><i class="fas fa-check"></i>L’uro-gynécologie de base : rééducation du périnée après l’accouchement, incontinence urinaire</li>
                                     </ul>
                                 </div>
-                            </div>
-                            <div class="blog-details-wrap">
+                            </div> -->
+                            <!-- <div class="blog-details-wrap">
                                 <h3 class="title">Consultations</h3>
                                 <p>Un premier rendez-vous pour les séances de kinésithérapie est donné par les accueillantes. Les autres rendez-vous sont donnés par les kinés eux-mêmes selon leur disponibilité.</p>
                                 <p>Il est impératif d’avoir une prescription d’un médecin pour commencer de la kinésithérapie. Cette prescription doit être présentée à l’accueil ou lors de la première sance de kinésithérapie.</p>
-                            </div>
+                            </div> -->
                             <div class="blog-details-wrap">
                                 <h3 class="title">Retard et annulation</h3>
-                                <p>Les patients en retard de 10 minutes à leur rendez-vous ne sont plus reçus par le kinésithérapeute, ceci afin de garantir à tous (kinésithérapeute comme patient) une consultation dans de bonnes conditions.</p>
+                                <p>Les patients en retard de 10 minutes à leur rendez-vous ne sont plus reçus par l'assistante sociale, ceci afin de garantir à tous (assistante sociale comme patient) une consultation dans de bonnes conditions.</p>
                                 <p>En cas d’empêchement, il est important de prévenir la maison médicale le plus rapidement possible afin que le rendez-vous prévu puisse être proposé à un autre patient et qu’un nouveau rendez-vous soit organisé pour le patient empêché.</p>
                             </div>
-                            <div class="blog-details-wrap">
+                            <!-- <div class="blog-details-wrap">
                                 <h3 class="title">Honoraires</h3>
                                 <p>Le prix des consultations de médecine générale, de kinésithérapie et les soins infirmiers sont compris dans l’abonnement forfaitaire aux soins souscrit par le patient à la signature de son contrat d'inscription avec la maison médicale.</p>
-                            </div>
+                            </div> -->
                             <!-- Equipe-Medecin-area -->
                             <section class="home-shop-area team-area">
                                 <div class="container">
@@ -528,7 +528,7 @@
                                             <div class="home-team-item">
                                                 <div class="photo-team">
                                                     <a href="shop-details.html">
-                                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Smiling Woman_PNG.png" alt="img">
+                                                        <img src="<?php bloginfo("template_url")?>/assets/img/Team/nina.jpg" alt="img">
                                                     </a>
                                                 </div>
                                                 <div class="home-shop-content photo-team-content">

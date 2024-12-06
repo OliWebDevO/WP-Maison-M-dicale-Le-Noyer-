@@ -166,12 +166,12 @@
                     <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/TDV_M63_06.png" alt="img" class="wow fadeInRight" data-wow-delay=".3s" data-wow-duration="1s">
                 </div> -->
             </div>
-            <!-- <div class="copyright-wrap">
+            <div class="copyright-wrap">
                 <div class="container">
                     <div class="row align-items-center">
-                        <div class="col-md-7">
+                        <div class="col-md-12">
                             <div class="copyright-text">
-                                <p>Contactez nous pour toute demande d'inscription.</p>
+                                <p>La Maison médicale Le Noyer asbl respecte le RGPD et, par là même, respecte le droit des personnes physiques à l’égard de la protection de leurs données personnelles. <br>Si vous souhaitez en savoir plus, n’hésitez pas à consulter notre politique de confidentialité <a href="https://www.lenoyer.be/rgpd">ici</a></p>
                             </div>
                         </div>
                         <div class="col-md-5">
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </footer>
         <!-- Footer-area-end -->
 
