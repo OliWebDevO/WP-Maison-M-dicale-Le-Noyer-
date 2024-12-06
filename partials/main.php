@@ -119,36 +119,46 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-9">
-                        <a href="mailto:info@lenoyer.be">
-                            <div class="contact-box contact-big">
+                    <div class="col-lg-6 col-md-6 col-sm-9">
+                        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:34a76bdf-20cf-4bb5-a8c2-849b0a5a0117" target='_blank'>
+                            <div class="contact-box contact-big contact-img-box">
                                 <div class="contact-icon">
-                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                                    <i class="fa-solid fa-clock"></i>
+                                    <!-- <i class="fa-solid fa-clock"></i> -->
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="">
                                 </div>
-                                <div class="contact-content">
+                                <!-- <div class="contact-content">
                                     <h5 class="title">Horaires</h5>
                                     <p class="contact-desc"></p>
                                     <p><strong>Lundi :</strong> <br> De 8h à 12h30 et de 15h à 19h</p>
                                     <p> <strong>Mardi & Mercredi :</strong> <br> De 8h à 12h30 et de 13h à 19h</p>
                                     <p> <strong>Jeudi & Vendredi :</strong> <br> De 8h à 12h30 et de 14h à 19h</p>
+                                </div> -->
+                                <div class="contact-content">
+                                    <h5 class="title">Horaires</h5>
                                 </div>
+                                <img class='horaires' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/horaires11.png" alt="">
+                                <img class='horaires2' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/horaires2.png" alt="">
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-8 col-md-6 col-sm-9">
+                    <div class="col-lg-6 col-md-6 col-sm-9">
                         <a href="mailto:info@lenoyer.be">
                             <div class="contact-box contact-big">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                                    <i class="fa-regular fa-clock"></i>
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="">
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title">Garde</h5>
+                                    <br class='mobile-hidden'><br class='mobile-hidden'><br class='mobile-hidden'>
                                     <p class="contact-desc"></p>
                                     <p>L'accueil reste joignable durant les heures de fermeture du temps de midi pour les urgences médicales.</p>
-                                    <p>Après 19h, les week-ends et les jours fériés ; Appelez la garde bruxelloise au : 1733</p>
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/garde.jpeg" alt="">
+                                    <p>Après 19h, les week-ends et les jours fériés ; Appelez la garde bruxelloise au :</p>
+                                    <img class='horaires3' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/1733.png" alt="">
                                     <p>Ou rendez-vous aux postes de garde : <br> Chaussée de Haecht 579, 1030 schaerbeek <br> Rue d'Oultremont 54, 1040 etterbeek</p>
+                                    <br class='mobile-hidden'>
+                                    <br class='mobile-hidden'>
                                 </div>
                             </div>
                         </a>
@@ -158,7 +168,6 @@
         </div>
     </section>
     <!-- contact-area-end -->
-    <!-- banner-area-end -->
 
     <!-- features-area -->
     <section id="features" class="features-area features-bg" data-background="<?php bloginfo("template_url")?>/assets/img/LeNoyer/bgbanner.png">

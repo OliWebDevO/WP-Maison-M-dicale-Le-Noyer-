@@ -27,7 +27,67 @@
                 </div>
             </div>
 
-            <!-- blog-post-area -->
+            <!-- contact-form-end -->
+            <section class="contact-form-area journal-form-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="contact-form-wrap">
+                                <div class="section-title journal-contact mb-50">
+                                    <p class="sub-title">Inscrivez vous au journal ici </p>
+                                    <h2 class="title">Inscription </h2>
+                                </div>
+                                <form id="contact-form" action="inc/contact.php" class="contact-form" data-toggle="validator">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-grp">
+                                                <label for="full-name">Nom</label>
+                                                <input type="text" id="full-name" placeholder="Votre nom" required="required" data-error="Veuillez écrire votre nom.">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-grp">
+                                                <label for="email">Email</label>
+                                                <input type="email" id="email" placeholder="Votre email" required="required" data-error="Veuillez introduire votre email">
+                                                <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-grp cb">
+                                                <fieldset>
+                                                    <div class='cb-flex'>
+                                                        <input type="radio" id="check3" name="check-journal1" />
+                                                        <label for="check3">S'inscrire au journal au format mail</label>
+                                                    </div>
+                                                    <div class='cb-flex'>
+                                                        <input type="radio" id="check5" name="check-journal1" />
+                                                        <label for="check5">Se désinscrire du journal au format mail</label>
+                                                    </div>
+                                                    <div class='cb-flex'>
+                                                        <input type="radio" id="check4" name="check-journal2" />
+                                                        <label for="check4">S'inscrire au journal au format papier</label>
+                                                    </div>
+                                                    <div class='cb-flex'>
+                                                        <input type="radio" id="check6" name="check-journal2" />
+                                                        <label for="check6">Se désinscrire du journal au format papier </label>
+                                                    </div>
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-btn">
+                                        <button type="submit" class="btn">Envoyer</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact-form-area-end -->
+
+
             <section id="ponctuel" class="blog-post-area-two section-pt-130 section-pb-100">
             <div class="container">
                 <div class="row justify-content-center">
@@ -43,7 +103,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-xxl-10 col-xl-12">
+                    <div class="col-xxl-12 col-xl-12">
                         <div class="row">
                             <div class="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
                                 <div class="tg-testimonial-item">

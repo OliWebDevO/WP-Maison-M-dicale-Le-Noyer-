@@ -112,12 +112,13 @@
                                 <div class="footer-widget">
                                     <h4 class="fw-title">Le Noyer</h4>
                                     <ul class="list-wrap">
-                                        <li><a href="#">Fonctionnement</a></li>
-                                        <li><a href="#">Espace Patient</a></li>
-                                        <li><a href="#">Inscriptions</a></li>
-                                        <li><a href="#">Services</a></li>
-                                        <li><a href="shop.html">L'équipe</a></li>
-                                        <li><a href="#">Le journal</a></li>
+                                        <li><a href="<?php bloginfo("url")?>/about">Fonctionnement</a></li>
+                                        <li><a href="<?php bloginfo("url")?>/services">Consultations</a></li>
+                                        <li><a href="<?php bloginfo("url")?>/activites">Activités</a></li>
+                                        <li><a href="<?php bloginfo("url")?>/equipe">Equipe</a></li>
+                                        <li><a href="<?php bloginfo("url")?>/reseau">Réseau</a></li>
+                                        <li><a href="<?php bloginfo("url")?>/journal">Journal</a></li>
+                                        <li><a href="<?php bloginfo("url")?>/contact">Contact & Accès</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -126,12 +127,12 @@
                                     <h4 class="fw-title">Activités</h4>
                                     <ul class="list-wrap">
                                         <li><a href="#">Atelier Cuisine</a></li>
-                                        <li><a href="blog.html">Initiation au vélo</a></li>
+                                        <li><a href="#">Initiation au vélo</a></li>
                                         <li><a href="#">Gym Douce</a></li>
                                         <li><a href="#">Jardinnage</a></li>
                                         <li><a href="#">Promenades Découvertes</a></li>
-                                        <li><a href="contact.html">Yoga</a></li>
-                                        <li><a href="contact.html">Tai Chi</a></li>
+                                        <li><a href="#">Yoga</a></li>
+                                        <li><a href="#">Tai Chi</a></li>
                                     </ul>
                                 </div>
                             </div>

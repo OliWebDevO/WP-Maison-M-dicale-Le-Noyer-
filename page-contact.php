@@ -75,36 +75,46 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-9">
-                        <a href="mailto:info@lenoyer.be">
-                            <div class="contact-box contact-big">
+                    <div class="col-lg-6 col-md-6 col-sm-9">
+                        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:34a76bdf-20cf-4bb5-a8c2-849b0a5a0117" target='_blank'>
+                            <div class="contact-box contact-big contact-img-box">
                                 <div class="contact-icon">
-                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                                    <i class="fa-solid fa-clock"></i>
+                                    <!-- <i class="fa-solid fa-clock"></i> -->
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="">
                                 </div>
-                                <div class="contact-content">
+                                <!-- <div class="contact-content">
                                     <h5 class="title">Horaires</h5>
                                     <p class="contact-desc"></p>
                                     <p><strong>Lundi :</strong> <br> De 8h à 12h30 et de 15h à 19h</p>
                                     <p> <strong>Mardi & Mercredi :</strong> <br> De 8h à 12h30 et de 13h à 19h</p>
                                     <p> <strong>Jeudi & Vendredi :</strong> <br> De 8h à 12h30 et de 14h à 19h</p>
+                                </div> -->
+                                <div class="contact-content">
+                                    <h5 class="title">Horaires</h5>
                                 </div>
+                                <img class='horaires' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/horaires11.png" alt="">
+                                <img class='horaires2' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/horaires2.png" alt="">
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-8 col-md-6 col-sm-9">
+                    <div class="col-lg-6 col-md-6 col-sm-9">
                         <a href="mailto:info@lenoyer.be">
                             <div class="contact-box contact-big">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                                    <i class="fa-regular fa-clock"></i>
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="">
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title">Garde</h5>
+                                    <br class='mobile-hidden'><br class='mobile-hidden'><br class='mobile-hidden'>
                                     <p class="contact-desc"></p>
                                     <p>L'accueil reste joignable durant les heures de fermeture du temps de midi pour les urgences médicales.</p>
-                                    <p>Après 19h, les week-ends et les jours fériés ; Appelez la garde bruxelloise au : 1733</p>
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/garde.jpeg" alt="">
+                                    <p>Après 19h, les week-ends et les jours fériés ; Appelez la garde bruxelloise au :</p>
+                                    <img class='horaires3' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/1733.png" alt="">
                                     <p>Ou rendez-vous aux postes de garde : <br> Chaussée de Haecht 579, 1030 schaerbeek <br> Rue d'Oultremont 54, 1040 etterbeek</p>
+                                    <br class='mobile-hidden'>
+                                    <br class='mobile-hidden'>
                                 </div>
                             </div>
                         </a>
@@ -144,6 +154,41 @@
                                                 <label for="email">Email</label>
                                                 <input type="email" id="email" placeholder="Votre email" required="required" data-error="Veuillez introduire votre email">
                                                 <div class="help-block with-errors"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-grp cb">
+                                                <fieldset>
+                                                    <!-- <label class='cb-title' for="choix">Inscription</label> -->
+                                                    <div class='cb-flex m0'>
+                                                        <input type="radio" id="check1" name="check-news"/>
+                                                        <label for="check1">S'inscrire à la newsletter </label>
+                                                    </div>
+                                                    <!-- <div class='cb-flex'>
+                                                        <input type="checkbox" id="check3" name="check3" />
+                                                        <label for="check3">S'inscrire au journal au format mail</label>
+                                                    </div> -->
+                                                </fieldset>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-grp cb">
+                                                <fieldset>
+                                                    <!-- <label class='cb-title' for="choix">Désinscription</label> -->
+                                                    <div class='cb-flex m0'>
+                                                        <input type="radio" id="check2" name="check-news"/>
+                                                        <label for="check2">Se désinscrire de la newsletter </label>
+                                                    </div>
+
+                                                    <!-- <div class='cb-flex'>
+                                                        <input type="checkbox" id="check2" name="check2" />
+                                                        <label for="check2">Se désinscrire du journal au format papier </label>
+                                                    </div>
+                                                    <div class='cb-flex'>
+                                                        <input type="checkbox" id="check3" name="check3" />
+                                                        <label for="check3">Se désinscrire du journal au format mail</label>
+                                                    </div> -->
+                                                </fieldset>
                                             </div>
                                         </div>
                                     </div>
