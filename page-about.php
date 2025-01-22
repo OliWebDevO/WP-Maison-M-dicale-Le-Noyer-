@@ -1,6 +1,110 @@
 <?php get_template_part("partials/header") ?>
 
-<?php get_template_part("partials/navigation") ?> 
+        <!-- header-area -->
+        <header id="home">
+            <div id="header-top-fixed"></div>
+            <div id="sticky-header" class="menu-area">
+                <div class="container custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mobile-nav-toggler"><i class="flaticon-layout"></i></div>
+                            <div class="menu-wrap">
+                                <nav class="menu-nav">
+                                    <div class="logo">
+                                        <a href="<?php bloginfo("url")?>"><img class='logo-nav-img' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
+                                    </div>
+                                    <div class="navbar-wrap main-menu d-none d-xl-flex">
+                                        <ul class="navigation">
+                                            <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>" class="section-link">Accueil</a>
+                                            </li>
+                                            <li class='active'><a href="<?php bloginfo("url")?>/about" class="section-link">Fonctionnement</a></li>
+                                            <li><a href="<?php bloginfo("url")?>/services" class="section-link">Consultations</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="<?php bloginfo("url")?>/services#servicemedecine">Médecine Générale</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#servicekine">Kinésithérapie</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#serviceinfi">Infirmerie</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#serviceas">Assistance Sociale</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/activites">Activités</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="<?php bloginfo("url")?>/activites#ponctuel">Activités ponctuelles</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/activites#recurent">Activités récurrentes</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/equipe" class="section-link">Équipe</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#accueil">Accueil</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#medecin">Médecins</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#assistant">Assistant-e-s en Médecine Générale</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#kine">Kinésithérapeutes</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#infirmier">Infirmier-ères</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#as">Assistante Sociale</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#admin">Gestionnaires Administratifs</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#coordinatrice">Coordinatrice</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#entretien">Entretien</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="<?php bloginfo("url")?>/reseau" class="section-link">Réseau</a>
+                                            <li><a href="<?php bloginfo("url")?>/Journal" class="section-link">Journal</a>
+                                            </li>
+                                            <li><a href="<?php bloginfo("url")?>/espace-patients" class="section-link">Espace Patients</a>
+                                            <li><a href="<?php bloginfo("url")?>/contact">Contact & Accès</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Menu  -->
+            <div class="mobile-menu">
+                <nav class="menu-box">
+                    <div class="close-btn"><i class="fas fa-times"></i></div>
+                    <div class="nav-logo">
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                    </div>
+                    <div class="menu-outer">
+                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                    </div>
+                    <div class="social-links">
+                        <ul class="clearfix">
+                            <li><a href="https://www.facebook.com/profile.php?id=61553948742997"><i class="fab fa-facebook-f"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="menu-backdrop"></div>
+            <!-- End Mobile Menu -->
+
+            <!-- header-search -->
+            <!-- <div class="search-popup-wrap" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="search-wrap text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="search-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Enter your keyword...">
+                                        <button class="search-btn"><i class="flaticon-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-backdrop"></div> -->
+            <!-- header-search-end -->
+
+
+
+        </header>
+        <!-- header-area-end -->
+
+ 
 
      <!-- banner-area -->
      <div class="video-area video-bg page-bg" data-background="<?php bloginfo("template_url")?>/assets/img/lenoyerentre.png">
@@ -26,8 +130,8 @@
 
 <!-- main-area -->
 <main class="main-area fix">
-           <!-- Ingredients-area -->
-           <section id="ingredient" class="ingredients-area-two section-py-130">
+
+        <!-- <section id="ingredient" class="ingredients-area-two section-py-130">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-10">
@@ -49,11 +153,6 @@
                     </div>
                     <div class="col-lg-4 col-md-6">
                         <div class="ingredients-item-wrap reverse-item">
-                            <!-- <div class="ingredients-item-two">
-                                <div class="ingredients-content-two">
-                                    <h3 class="title">Des Soins Globaux</h3>
-                                </div>
-                            </div> -->
                             <div class="ingredients-item-two wow fadeInUp" data-wow-delay=".1s">
                                 <div class="ingredients-icon">
                                     <i class="flaticon-vitamins"></i>
@@ -116,120 +215,115 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Ingredients-area-end -->
+        </section> -->
+    <section id="ingredient" class="ingredients-area-two section-py-130">
+        <div class="container">
+            <div class="row justify-content-center triptyque-">
+                <div class="col-lg-10">
+                    <div class="section-title section-title-two text-center mb-90">
+                        <div class="sub-title">
+                            <img src="<?php bloginfo("template_url")?>/assets/img/icons/sub_left.svg" class="injectable" alt="img">
+                            Le Noyer
+                            <img src="<?php bloginfo("template_url")?>/assets/img/icons/sub_right.svg" class="injectable" alt="img">
+                        </div>
+                        <h2 class="title">Votre maison médicale c'est :</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center big-tryptique">
+                <div class="col-lg-12">
+                   <!-- <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/asset 3.png" alt=""> -->
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center big-tryptique">
+                <div class="col-lg-12">
+                   <!-- <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/asset 3.png" alt=""> -->
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/big.png" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center big-triptyque">
+                <div class="col-lg-12">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center mobile-tryptique ">
+                <div class="col-lg-4 col-md-11 mil-mb-120">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/1.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-11 mil-mb-120">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/2.png" alt="">
+                </div>
+                <div class="col-lg-4 col-md-11 mil-mb-120">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
         
             <!-- features-product -->
             <section id="" class="features-products">
                 <div class="container">
-                    <div class="features-products-wrap">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6 col-md-8">
-                                <div class="features-products-thumb wow fadeInLeft" data-wow-delay=".2s">
-                                    <div class="main-img">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic2.png" alt="img">
+
+
+                    <!-- Loop PHP Debut-->
+                    <?php
+                    $loop = new WP_Query( array( 
+                        'post_type' => 'fonctionnement', // Va rechercher le type de contenu “job”
+                        'posts_per_page' => -1, // Affiche tout sans limite 
+                        'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                        'order' => 'ASC', // Chronologique ou pas (DESC)
+                            ));?>
+                    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                    <!-- Ce qui doit être "bouclé" -->
+                        <div class="features-products-wrap">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 col-md-8">
+                                    <div class="features-products-thumb wow fadeInUp" data-wow-delay=".2s">
+                                        <div class="main-img">
+                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                        </div>
+                                        <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape01.png" alt="img" class="shape-img"> -->
                                     </div>
-                                    <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape01.png" alt="img" class="shape-img"> -->
                                 </div>
-                            </div>
-                            <div class="col-lg-6 col-md-10">
-                                <div class="features-product-content">
-                                    <h2 class="title"><a href="shop-details.html">Le Noyer</a></h2>
-                                    <p>
-                                        ​Une maison médicale est une équipe pluridisciplinaire dispensant des soins de première lignede qualité, accessibles, continus, globaux et intégrés.  Elle s’adresse à l’ensemble de la population.​
-                                    </p>
-                                    <p>
-                                        Son action vise une approche globale de la santé, considérée dans ses dimensions physiques, mais aussi psychiques et sociales.​ Elle s’inscrit dans une approche de promotion de la santé et intègre des soins de prévention.​
-                                    </p>    
-                                    <p>
-                                        La maison médicale s’appuie sur une dynamique de participation communautaire pour favoriser une prise de conscience critique des citoyens vis-à-vis de mécanismes qui entravent leur santé.​ Elle travaille en partenariat avec le réseau local.​
-                                    </p>
-                                    <!-- <p>Ces professions constituent l’équipe de base d’une maison médicale. Parfois dans certaines maisons médicales, d’autres professionnels s’y ajoutent : psychologue, logopède, diététicien…​ </p> -->
-                                    <p> Les professionnels s’organisent dans une perspective et une démarche interdisciplinaire au sein d’une équipe « structurée ». Plus que la pluridisciplinarité qui juxtapose plusieurs disciplines, l’interdisciplinarité tend à faire partager les savoirs des disciplines différentes, à les mettre en interaction.​
-                                        L’interdisciplinarité va permettre de répondre de manière plus adéquate aux besoins et aux demandes des patients, et tenir compte de la globalité de leur vécu.​ Un dossier médical informatisé est tenu à jour pour chaque patient.</p>
+                                <div class="col-lg-6 col-md-10">
+                                    <div class="features-product-content">
+                                        <h2 class="title">
+                                            <?php the_title(); ?>
+                                        </h2>
+                                        <h6 class="features-product-quantity"><?php the_field('sous_titre');?></h6>
+                                        <p>
+                                            <?php the_field('paragraphe_1');?>
+                                        </p>
+                                        <p>
+                                            <?php the_field('paragraphe_2');?>
+                                        </p>    
+                                        <p>
+                                            <?php the_field('paragraphe_3');?>
+                                        </p>
+                                        <p> 
+                                            <?php the_field('paragraphe_4');?>
+                                        </p>
+                                        <p>
+                                            <?php the_field('paragraphe_5');?>
+                                        </p>
+                                        <p>
+                                            <?php the_field('paragraphe_6');?>
+                                        </p>
+                                        <p>
+                                            <?php the_field('paragraphe_7');?>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div id="activités" class="features-products-wrap">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6 col-md-8">
-                                <div class="features-products-thumb wow fadeInRight" data-wow-delay=".2s">
-                                    <div class="main-img">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/approche.png" alt="img">
-                                    </div>
-                                    <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape02.png" alt="img" class="shape-img"> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-10">
-                                <div class="features-product-content">
-                                    <h2 class="title"><a href="shop-details.html">notre approche</a></h2>
-                                    <h6 class="features-product-quantity">La maison médicale s'engage :</h6>
-                                    <p><i class="fa-solid fa-check"></i>A organiser les consultations et les visites pour répondre aux demandes des patients.</p>
-                                    <p><i class="fa-solid fa-check"></i>A assurer la continuité des soins en dehors des périodes de consultations et de visites et ce, 24 heures sur 24 et 7 jours sur 7 (participation au système de garde). </p>
-                                    <p><i class="fa-solid fa-check"></i>A informer les patients sur leurs problèmes de santé.</p>
-                                    <p><i class="fa-solid fa-check"></i>A faire bénéficier tous les patients des actions de médecine préventive et de promotion de la santé que la maison médicale organise.</p>
-                                    <p><i class="fa-solid fa-check"></i>Etablir et tenir à jour un dossier médical global pour tous les patients. </p>
-                                    <p>Préalablement au démarrage de leurs activités, les maisons médicales doivent délimiter une zone géographique d’activités et être reconnues par l’INAMI en tant que maison médicale au forfait. </p>
-                                    <p>Suivant certaines conditions, les maisons médicales peuvent mettre fin à l’inscription des patients pour motifs relationnels ou administratifs (assurabilité, déménagement, …).</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="activités2" class="features-products-wrap">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6 col-md-8">
-                                <div class="features-products-thumb wow fadeInRight" data-wow-delay=".2s">
-                                    <div class="main-img">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/approche.png" alt="img">
-                                    </div>
-                                    <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape02.png" alt="img" class="shape-img"> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-10">
-                                <div class="features-product-content">
-                                    <h2 class="title"><a href="shop-details.html">Le contrat</a></h2>
-                                    <h6 class="features-product-quantity">Les patients inscrits à la maison médicale s’engagent : </h6>
-                                    <p><i class="fa-solid fa-check"></i>A consulter exclusivement les prestataires de soins de la maison médicale dans laquelle ils sont inscrits et pour lesquels la maison médicale reçoit un forfait.</p>
-                                    <p><i class="fa-solid fa-check"></i>A respecter le système de services mis en place par la maison médicale dans laquelle ils sont inscrits (gardes, …).</p>
-                                    <p><i class="fa-solid fa-check"></i>A rester en ordre de mutuelle</p>
-                                    <p><i class="fa-solid fa-check"></i>A informer la maison médicale de tous les changements intervenus dans la famille (adresse, téléphone, mutuelle, …).</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="features-products-wrap">
-                        <div class="row justify-content-center">
-                            <div class="col-lg-6 col-md-8">
-                                <div class="features-products-thumb wow fadeInLeft" data-wow-delay=".2s">
-                                    <div class="main-img">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic_2.png" alt="img">
-                                    </div>
-                                    <!-- <img src="<?php bloginfo("template_url")?>/assets/img/products/features_product_shape01.png" alt="img" class="shape-img"> -->
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-10">
-                                <div class="features-product-content">
-                                    <h2 class="title"><a href="shop-details.html">Inscriptions</a></h2>
-                                    <h6 class="features-product-quantity">Paiement au forfait</h6>
-                                    <p>
-                                    A la suite d’un rendez-vous de présentation de la maison médicale et de son fonctionnement, vous pourrez signer un contrat d’abonnement au forfait. Celui-ci comprend les soins de médecine générale, de kinésithérapie et les soins infirmiers. </p>
-
-                                    <p>En signant, vous vous engagez à toujours consulter à la maison médicale pour ces trois disciplines. En effet, le contrat d’abonnement signifie qu’il y a un accord entre la mutuelle, le patient et la maison médicale. La mutuelle va donc verser un montant forfaitaire chaque mois à la maison médicale qui permettra au patient de consulter le médecin généraliste, la kiné ou l’infirmière sans devoir lui-même avancer d’argent. La mutuelle ne remboursera donc plus le patient qui consultera un autre médecin généraliste, kiné ou infirmier.  Le contrat est également individuel et non par famille, et implique une adhésion complète aux services forfaitaires de la maison médicale. Le patient s'engage également à rester en ordre du mutuelle. </p>
-
-                                    
-
-                                    <p>Par contre, en ce qui concerne les soins chez les spécialistes (gynécologue, dermatologue, orl),  la mutuelle continuera de vous rembourser les attestations de soins. </p>
-
-                                    
-
-                                    <p>Une exception est faite par la maison médicale qui autorise ses patients à consulter au planning familial. Les consultations de garde ou lors de vos déplacements loin du domicile sont également remboursées par la maison médicale au tarif mutuelle. 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php endwhile;
+                    wp_reset_query();
+                    ?>
+                    <!-- Loop PHP Fin-->
+                    
+                </div>
                     <!-- <div class="features-products-wrap">
                         <div class="row justify-content-center">
                             <div class="col-lg-6 col-md-8">

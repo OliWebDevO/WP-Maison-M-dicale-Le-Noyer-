@@ -1562,6 +1562,11 @@ body.search-visible {
 	font-size: 50px;
 	margin-bottom: 0;
 }
+.features-product-content .little-title {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
 .features-product-content .title::after {
 	content: "";
 	display: block;
@@ -1760,6 +1765,9 @@ body.search-visible {
 
 .photo-team-content {
 	padding: 40px;
+}
+.photo-team-content-big{
+	padding: 40px 40px 20px 40px;
 }
 .shop-thumb-shape {
 	position: absolute;
@@ -2963,6 +2971,12 @@ body.search-visible {
 .ingredients-img {
 	margin-right: 80px;
 	position: relative;
+}
+.section-title-team {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
 .section-title .sub-title {
 	font-weight: 500;
@@ -4534,7 +4548,8 @@ body.search-visible {
 }
 .contact-icon {
 	font-size: 100px;
-	color: var(--tg-secondary-color);
+	color: var(--tg-primary-color);
+	filter: opacity(0.9);
 	line-height: 1;
 	position: relative;
 	display: inline-flex;
@@ -5771,7 +5786,13 @@ body.search-visible {
 	width: 145px;
 	flex: 0 0 145px;
 	margin-right: 25px;
+	transition:  ease-in-out .3s;
 }
+.tg-testimonial-thumb:hover {
+	transition:  ease-in-out .3s;
+	filter:brightness(0.7)
+	}
+
 .tg-testimonial-thumb img {
 	border-radius: 30px;
 	height: 145px;
@@ -7872,4 +7893,6 @@ body.search-visible {
   .mil-mb-30 {
 	margin-bottom: 30px;
   }
-
+  .mil-mb-120 {
+	margin-bottom: 120px;
+  }

@@ -1,6 +1,109 @@
 <?php get_template_part("partials/header") ?>
 
-<?php get_template_part("partials/navigation") ?> 
+        <!-- header-area -->
+        <header id="home">
+            <div id="header-top-fixed"></div>
+            <div id="sticky-header" class="menu-area">
+                <div class="container custom-container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mobile-nav-toggler"><i class="flaticon-layout"></i></div>
+                            <div class="menu-wrap">
+                                <nav class="menu-nav">
+                                    <div class="logo">
+                                        <a href="<?php bloginfo("url")?>"><img class='logo-nav-img' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
+                                    </div>
+                                    <div class="navbar-wrap main-menu d-none d-xl-flex">
+                                        <ul class="navigation">
+                                            <li class=" menu-item-has-children"><a href="<?php bloginfo("url")?>" class="section-link">Accueil</a>
+                                            </li>
+                                            <li><a href="<?php bloginfo("url")?>/about" class="section-link">Fonctionnement</a></li>
+                                            <li><a href="<?php bloginfo("url")?>/services" class="section-link">Consultations</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="<?php bloginfo("url")?>/services#servicemedecine">Médecine Générale</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#servicekine">Kinésithérapie</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#serviceinfi">Infirmerie</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/services#serviceas">Assistance Sociale</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/activites">Activités</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="<?php bloginfo("url")?>/activites#ponctuel">Activités ponctuelles</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/activites#recurent">Activités récurrentes</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/equipe" class="section-link">Équipe</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#accueil">Accueil</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#medecin">Médecins</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#assistant">Assistant-e-s en Médecine Générale</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#kine">Kinésithérapeutes</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#infirmier">Infirmier-ères</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#as">Assistante Sociale</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#admin">Gestionnaires Administratifs</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#coordinatrice">Coordinatrice</a></li>
+                                                    <li><a href="<?php bloginfo("url")?>/equipe#entretien">Entretien</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="<?php bloginfo("url")?>/reseau" class="section-link">Réseau</a>
+                                            <li><a href="<?php bloginfo("url")?>/Journal" class="section-link">Journal</a>
+                                            </li>
+                                            <li><a href="<?php bloginfo("url")?>/espace-patients" class="section-link">Espace Patients</a>
+                                            <li class='active'><a href="<?php bloginfo("url")?>/contact">Contact & Accès</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Menu  -->
+            <div class="mobile-menu">
+                <nav class="menu-box">
+                    <div class="close-btn"><i class="fas fa-times"></i></div>
+                    <div class="nav-logo">
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                    </div>
+                    <div class="menu-outer">
+                        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+                    </div>
+                    <div class="social-links">
+                        <ul class="clearfix">
+                            <li><a href="https://www.facebook.com/profile.php?id=61553948742997"><i class="fab fa-facebook-f"></i></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="menu-backdrop"></div>
+            <!-- End Mobile Menu -->
+
+            <!-- header-search -->
+            <!-- <div class="search-popup-wrap" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="search-wrap text-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="search-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Enter your keyword...">
+                                        <button class="search-btn"><i class="flaticon-search"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="search-backdrop"></div> -->
+            <!-- header-search-end -->
+
+
+
+        </header>
+        <!-- header-area-end -->
+
 
 <!-- main-area -->
 <main class="main-area fix">
@@ -32,6 +135,18 @@
         <div class="container">
             <div class="contact-box-wrapper">
                 <div class="row justify-content-center">
+                                        <!-- Loop PHP Debut-->
+                                        <?php
+                    $loop = new WP_Query( array( 
+                        'post_type' => 'contactacces', // Va rechercher le type de contenu “job”
+                        'posts_per_page' => -1, // Affiche tout sans limite 
+                        'offset' => 3, // Commence la boucle après avoir "passé" les 3 premiers
+                        'orderby' => 'name', // Ordonne par le nom de l'élément
+                        'order' => 'ASC', // Chronologique ou pas (DESC)
+                            ));?>
+                    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                    <!-- Ce qui doit être "bouclé" -->
+
                     <div class="col-lg-4 col-md-6 col-sm-9">
                         <a href="https://www.google.com/maps/place/Maison+M%C3%A9dicale+Le+Noyer/@50.8523601,4.3863791,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3c35c1c50886d:0xae67049eba86c3a7!8m2!3d50.8523601!4d4.388954!16s%2Fg%2F1tfq3tr7?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D">
                             <div class="contact-box">
@@ -41,8 +156,7 @@
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title">Adresse</h5>
-                                    <p class="contact-desc">Avenue Félix Marchal, 1a
-                                        <br> 1030 Schaerbeek</p>
+                                    <p class="contact-desc"><?php the_field('adresse');?></p>
                                 </div>
                             </div>
                         </a>
@@ -56,7 +170,7 @@
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title">Téléphone</h5>
-                                    <p class="contact-desc">(Tel) : 02/734.24.53 <br> (fax) : 02/734.29.27</p>
+                                    <p class="contact-desc">(Tel) : <?php the_field('telephone');?> <br> (fax) : <?php the_field('fax');?></p>
                                 </div>
                             </div>
                         </a>
@@ -70,7 +184,7 @@
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title">Web</h5>
-                                    <p class="contact-desc"><a href="mailto:info@lenoyer.be">Mail</a> <br> <a href="https://www.facebook.com/people/Maison-m%C3%A9dicale-Le-Noyer/61553948742997/">Facebook</a></p>
+                                    <p class="contact-desc"><a href="mailto:<?php the_field('mail');?>">Mail</a> <br> <a href="<?php the_field('facebook');?>">Facebook</a></p>
                                 </div>
                             </div>
                         </a>
@@ -92,11 +206,17 @@
                                 <div class="contact-content">
                                     <h5 class="title">Horaires</h5>
                                 </div>
-                                <img class='horaires' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/horaires11.png" alt="">
-                                <img class='horaires2' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/horaires2.png" alt="">
+                                <img class='horaires' src="<?php the_field('photo_horaires');?>" alt="">
+                                <img class='horaires2' src="<?php the_field('photo_complementaire_de_lhoraire');?>" alt="">
                             </div>
                         </a>
                     </div>
+
+                    <?php endwhile;
+                    wp_reset_query();
+                    ?>
+                    <!-- Loop PHP Fin-->
+
                     <div class="col-lg-6 col-md-6 col-sm-9">
                         <a href="mailto:info@lenoyer.be">
                             <div class="contact-box contact-big">

@@ -834,10 +834,17 @@
 
 }
 
-
+@media (min-width: 991.98px) {
+	.mobile-tryptique {
+		display: none;
+	}
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 991.98px) {
+.big-tryptique {
+	display: none;
+}
 .custom-container {
     max-width: 720px;
 }
@@ -1787,5 +1794,11 @@
 	.features-products-thumb img {
 		max-width: 400px;
 		border-radius: 8px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.ingredients-area .sub-title .injectable {
+		display: none;
 	}
 }

@@ -45,10 +45,10 @@
                                                     <li><a href="<?php bloginfo("url")?>/equipe#entretien">Entretien</a></li>
                                                 </ul>
                                             </li>
-                                            <li class='active'><a href="<?php bloginfo("url")?>/reseau" class="section-link">Réseau</a>
+                                            <li class=''><a href="<?php bloginfo("url")?>/reseau" class="section-link">Réseau</a>
                                             <li><a href="<?php bloginfo("url")?>/Journal" class="section-link">Journal</a>
                                             </li>
-                                            <li><a href="<?php bloginfo("url")?>/espace-patients" class="section-link">Espace Patients</a>
+                                            <li class='active'><a href="<?php bloginfo("url")?>/espace-patients" class="section-link">Espace Patients</a>
                                             <li><a href="<?php bloginfo("url")?>/contact">Contact & Accès</a></li>
                                         </ul>
                                     </div>
@@ -115,13 +115,13 @@
             <div class="row justify-content-center">
                 <div class="col-xl-10">
                     <div class="breadcrumb-content text-center">
-                        <h2 class="title">Réseau</h2>
+                        <h2 class="title">Espace Patients</h2>
                         <nav aria-label="Breadcrumbs" class="breadcrumb-trail">
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item trail-item trail-begin">
                                     <a href="index.html"><span>Accueil</span></a>
                                 </li>
-                                <li class="breadcrumb-item trail-item trail-end"><span>Réseau</span></li>
+                                <li class="breadcrumb-item trail-item trail-end"><span>Espace Patients</span></li>
                             </ul>
                         </nav>
                     </div>
@@ -131,36 +131,61 @@
     </div>
     <!-- banner-area-end -->
 
-    <!-- reseau-area -->
-    <section id="lenoyer" class="contact-area">
+    <section id="ingredient" class="ingredients-area-two section-pt-130">
         <div class="container">
-            <div class="contact-box-wrapper">
-                <div class="row justify-content-center">
+            <div class="row justify-content-center triptyque-">
+                <div class="col-lg-10">
+                    <div class="section-title section-title-two text-center mb-90">
+                        <div class="sub-title">
+                            <img src="<?php bloginfo("template_url")?>/assets/img/icons/sub_left.svg" class="injectable" alt="img">
+                            L'Espace Patient.es, une organisation par et pour les patient.es
+                            <img src="<?php bloginfo("template_url")?>/assets/img/icons/sub_right.svg" class="injectable" alt="img">
+                        </div>
+                        <h2 class="title">Pourquoi un Espace Patient.es ?</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+            <!-- features-product -->
+            <section class="features-products">
+                <div class="container">
 
                     <!-- Loop PHP Debut-->
                     <?php
                     $loop = new WP_Query( array( 
-                        'post_type' => 'membre-du-reseau', // Va rechercher le type de contenu “job”
+                        'post_type' => 'section-espace-patie', // Va rechercher le type de contenu “job”
                         'posts_per_page' => -1, // Affiche tout sans limite 
-                        'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                        'offset' => 2, // Commence la boucle après avoir "passé" les 3 premiers
                         'orderby' => 'name', // Ordonne par le nom de l'élément
                         'order' => 'ASC', // Chronologique ou pas (DESC)
                             ));?>
                     <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
                     <!-- Ce qui doit être "bouclé" -->
-
-                    <div class="col-lg-4 col-md-6 col-sm-9">
-                        <a href="<?php the_field('lien_web');?>" target="_blank">
-                            <div class="contact-box reseau-box">
-                                <div class="contact-icon">
-                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="">
-                                </div>
-                                <div class="contact-content">
-                                    <h5 class="title"><?php the_title(); ?></h5>
-                                    <!-- <p class="contact-desc"></p> -->
+                    <div class="features-products-wrap">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-6 col-md-8">
+                                <div class="features-products-thumb wow fadeInLeft" data-wow-delay=".2s">
+                                    <div class="main-img">
+                                        <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                    </div>
                                 </div>
                             </div>
-                        </a>
+                            <div class="col-lg-6 col-md-10">
+                                <div class="features-product-content">
+                                    <h6 class="features-product-quantity"><?php the_title(); ?></h6>
+                                    <p><?php the_field('paragraphe_1');?></p>
+                                    <p><?php the_field('paragraphe_2');?></p>
+                                    <p><?php the_field('paragraphe_3');?></p>
+                                    <p><?php the_field('paragraphe_4');?></p>
+                                    <p><?php the_field('paragraphe_5');?></p>
+                                    <p><?php the_field('paragraphe_6');?></p>
+                                    <p><?php the_field('paragraphe_7');?></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <?php endwhile;
@@ -168,12 +193,26 @@
                     ?>
                     <!-- Loop PHP Fin-->
 
-                   
+                 
                 </div>
-            </div>
-        </div>
-    </section>
-    <!-- reseau-area-end -->
+                <div class="fp-shapes-wrap">
+                    <!-- <div class="fp-shape-one">
+                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/TDV_M63_06.png" alt="shape" class="paroller" data-paroller-factor="0.25" data-paroller-factor-lg="0.20" data-paroller-factor-md="0.25" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical">
+                    </div>
+                    <div class="fp-shape-two">
+                        <img src="<?php bloginfo("template_url")?>/assets/img/others/features_sec_shape02.png" alt="shape" class="paroller" data-paroller-factor="-0.25" data-paroller-factor-lg="0.20" data-paroller-factor-md="0.25" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical">
+                    </div>
+                    <div class="fp-shape-three">
+                        <img src="<?php bloginfo("template_url")?>/assets/img/others/features_sec_shape03.png" alt="shape" class="paroller" data-paroller-factor="0.25" data-paroller-factor-lg="0.20" data-paroller-factor-md="0.25" data-paroller-factor-sm="0.10" data-paroller-type="foreground" data-paroller-direction="vertical">
+                    </div> -->
+                </div>
+                <div class="fp-circle one"></div>
+                <div class="fp-circle two"></div>
+                <div class="fp-circle three"></div>
+                <div class="fp-circle four"></div>
+                <div class="fp-circle five"></div>
+            </section>
+            <!-- features-product-end -->
 
 </main>
 <!-- main-area-end -->

@@ -46,6 +46,7 @@
                                             <li><a href="<?php bloginfo("url")?>/reseau" class="section-link">Réseau</a>
                                             <li><a href="<?php bloginfo("url")?>/Journal" class="section-link">Journal</a>
                                             </li>
+                                            <li><a href="<?php bloginfo("url")?>/espace-patients" class="section-link">Espace Patients</a>
                                             <li><a href="<?php bloginfo("url")?>/contact">Contact & Accès</a></li>
                                         </ul>
                                     </div>
