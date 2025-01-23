@@ -58,6 +58,8 @@ wp_reset_query();
     <?php the_content(); ?>
 
     <?php the_field('paragraphe_1');?>
+    
+    <?php the_permalink()?>
 
   </div>
     <!-- do stuff ... -->

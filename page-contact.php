@@ -135,8 +135,8 @@
         <div class="container">
             <div class="contact-box-wrapper">
                 <div class="row justify-content-center">
-                                        <!-- Loop PHP Debut-->
-                                        <?php
+                    <!-- Loop PHP Debut-->
+                    <?php
                     $loop = new WP_Query( array( 
                         'post_type' => 'contactacces', // Va rechercher le type de contenu “job”
                         'posts_per_page' => -1, // Affiche tout sans limite 
@@ -162,7 +162,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-9">
-                        <a href="tel:027342453">
+                        <a href="tel:<?php the_field('telephone');?>">
                             <div class="contact-box">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
@@ -176,7 +176,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-9">
-                        <a href="mailto:info@lenoyer.be">
+                        <a href="mailto:<?php the_field('mail');?>">
                             <div class="contact-box">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
@@ -218,7 +218,7 @@
                     <!-- Loop PHP Fin-->
 
                     <div class="col-lg-6 col-md-6 col-sm-9">
-                        <a href="mailto:info@lenoyer.be">
+                        <a href="mailto:<?php the_field('mail');?>">
                             <div class="contact-box contact-big">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->

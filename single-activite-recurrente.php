@@ -124,7 +124,8 @@
                                         <li class="breadcrumb-item trail-item trail-begin">
                                             <a href="<?php bloginfo("url")?>/activites"><span>Activités</span></a>
                                         </li>
-                                        <li class="breadcrumb-item trail-item trail-end"><span>Promenade</span></li>
+                                        <li class="breadcrumb-item trail-item trail-begin"><a href="<?php bloginfo("url")?>/activites#recurent"><span>Activités Récurrentes</span></a></li>
+                                        <li class="breadcrumb-item trail-item trail-end"><span><?php the_title(); ?></span></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -140,67 +141,45 @@
                         <div class="col-lg-8">
                             <div class="blog--post--item">
                                 <div class="blog--post--thumb">
-                                    <img src="<?php bloginfo("template_url")?>/assets/img/activités/promenade.jpeg" alt="img">
+                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                 </div>
                                 <div class="blog--post--content blog-details-content">
-                                    <div class="blog--tag">
-                                        <a href="#">Promenade Découvertes</a>
+                                <div class="blog-post-meta">
+                                        <ul class="list-wrap">
+                                            <li><a href="">Activité Récurrente</a></li>
+                                           <li><a href=""><?php the_field('horaires');?></a></li> 
+                                        </ul>
                                     </div>
-                                    <h2 class="blog--post--title">Visite de l'abbaye de la cambre</h2>
+                                    <h2 class="blog--post--title"><?php the_title(); ?></h2>
                                     <div class="blog--post--meta mb-20">
                                         <ul class="list-wrap">
                                             <!-- <li><span><i class="far fa-eye"></i>232 Views</span></li>
                                             <li><a href="#"><i class="far fa-comments"></i>35 Comments</a></li> -->
-                                            <li><span><i class="far fa-calendar-alt"></i>24 Mars 2024</span></li>
+                                            <li><span><i class="far fa-calendar-alt"></i><?php the_field('horaires');?></span></li>
                                         </ul>
                                     </div>
                                     <div class="post-text">
                                         <div class="blog-details-wrap">
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
+                                        <p><?php the_field('description');?></p>
                                         </div>
-                                        <!-- <div class="blog-details-post-thumb">
-                                            <img src="<?php bloginfo("template_url")?>/assets/img/activités/abbaye.jpg" alt="img">
-                                        </div> -->
                                         <div class="blog-details-wrap">
                                             <h3 class="title">Inscription</h3>
-                                            <p>Veuillez contacter Roman via roman.parmentier@lenoyer.be ou au 02/734 24 53. <br> Dernières Réservation le 20 aout.</p>
+                                            <p><?php the_field('inscription');?></p>
                                         </div>
                                         <div class="blog-details-wrap">
                                             <h3 class="title">Prix de l'activité</h3>
-                                            <p>Cette activité est gratuite.</p>
+                                            <p><?php the_field('prix');?></p>
                                         </div>
                                         <div class="blog-details-wrap border-none">
                                             <h3 class="title">Pour cette activité vous aurez besoin</h3>
                                             <div class="b-details-list">
                                                 <ul class="list-wrap">
-                                                    <li><i class="fas fa-check"></i>Bonne chaussures de marche
-                                                    </li>
-                                                    <li><i class="fas fa-check"></i>Veste imperméable</li>
-                                                    <li><i class="fas fa-check"></i>Nourriture pour la journée</li>
+                                                <?php the_field('materiel_necessaire');?>
                                                 </ul>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <div class="posts-navigation blog-post-navigation pt-35 pb-35">
-                                        <div class="row align-items-center">
-                                            <div class="col-md-5">
-                                                <div class="prev-link">
-                                                    <span>Prev Post</span>
-                                                    <h4><a href="#">Tips on Minimalist</a></h4>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-2 text-start text-md-center">
-                                                <a href="blog.html" class="navigation-filter"><img src="<?php bloginfo("template_url")?>/assets/img/icons/c_d01.png" alt=""></a>
-                                            </div>
-                                            <div class="col-md-5">
-                                                <div class="next-link text-start text-md-end">
-                                                    <span>Next Post</span>
-                                                    <h4><a href="#">Less Is More</a></h4>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    <div class="related-post mt-45">
+                                    <!-- <div class="related-post mt-45">
                                         <h3>Activités Similaires</h3>
                                         <div class="row">
                                             <div class="col-md-6">
@@ -228,8 +207,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="blog-avatar-wrap mb-45">
+                                    </div> -->
+                                    <!-- <div class="blog-avatar-wrap mb-45">
                                         <div class="blog-post-avatar-img">
                                             <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Poker Face_PNG.png" alt="img">
                                         </div>
@@ -238,7 +217,7 @@
                                             <h4>Roman Parmentier</h4>
                                             <p>Accueillant et gestionnaire administratif à la maison médicale</p>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -246,114 +225,71 @@
                             <aside class="blog-sidebar pl-20">
                                 <div class="widget mb-40">
                                     <div class="sidebar-title mb-25">
-                                        <h3 class="title">Activités ponctuelles</h3>
+                                        <h3 class="title">Activités Récurrentes</h3>
                                     </div>
+
+                                    <!-- Loop PHP Debut-->
+                                    <?php
+                                    $loop = new WP_Query( array( 
+                                        'post_type' => 'activite-recurrente', // Va rechercher le type de contenu “job”
+                                        'posts_per_page' => -1, // Affiche tout sans limite 
+                                        'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                                        'orderby' => 'name', // Ordonne par le nom de l'élément
+                                        'order' => 'ASC', // Chronologique ou pas (DESC)
+                                            ));?>
+                                    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                                    <!-- Ce qui doit être "bouclé" -->
                                     <div class="rc-post">
                                         <div class="rc-post-thumb">
-                                            <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/activités/promenade.jpeg" alt="img"></a>
+                                            <a href="<?php the_permalink()?>"><img src="<?php the_post_thumbnail_url(); ?>"></a>
                                         </div>
                                         <div class="rc-post-content">
-                                            <h5><a href="blog-details.html">Visite de l'Abbaye de la Cambre</a></h5>
+                                            <h5><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h5>
                                             <div class="rc-post-date">
-                                                <span><i class="far fa-calendar-alt"></i>24 Mars 2024</span>
+                                                <span><i class="far fa-calendar-alt"></i><?php the_field('horaires');?></span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="rc-post">
-                                        <div class="rc-post-thumb">
-                                            <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/activités/velo.png" alt="img"></a>
-                                        </div>
-                                        <div class="rc-post-content">
-                                            <h5><a href="blog-details.html">Cours de Vélo Débutant</a></h5>
-                                            <div class="rc-post-date">
-                                                <span><i class="far fa-calendar-alt"></i>24 Mars 2024</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rc-post">
-                                        <div class="rc-post-thumb">
-                                            <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/activités/cuisine.jpg" alt="img"></a>
-                                        </div>
-                                        <div class="rc-post-content">
-                                            <h5><a href="blog-details.html">Cours de Cuisine</a></h5>
-                                            <div class="rc-post-date">
-                                                <span><i class="far fa-calendar-alt"></i>24 Mars 2024</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rc-post">
-                                        <div class="rc-post-thumb">
-                                            <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/activités/bruzelle.png" alt="img"></a>
-                                        </div>
-                                        <div class="rc-post-content">
-                                            <h5><a href="blog-details.html">Bruzelle</a></h5>
-                                            <div class="rc-post-date">
-                                                <span><i class="far fa-calendar-alt"></i>24 Mars 2024</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <?php endwhile;
+                                    wp_reset_query();
+                                    ?>
+                                    <!-- Loop PHP Fin-->
+
                                 </div>
                                 <div class="widget mb-40">
                                     <div class="sidebar-title mb-25">
-                                        <h3 class="title">Activités Récurentes</h3>
+                                        <h3 class="title">Activités Ponctuelles</h3>
                                     </div>
+                                     <!-- Loop PHP Debut-->
+                                     <?php
+                                    $loop = new WP_Query( array( 
+                                        'post_type' => 'activite-ponctuelle', // Va rechercher le type de contenu “job”
+                                        'posts_per_page' => -1, // Affiche tout sans limite 
+                                        'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                                        'orderby' => 'name', // Ordonne par le nom de l'élément
+                                        'order' => 'ASC', // Chronologique ou pas (DESC)
+                                            ));?>
+                                    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                                    <!-- Ce qui doit être "bouclé" -->
                                     <div class="rc-post">
                                         <div class="rc-post-thumb">
-                                            <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/activités/yoga.png" alt="img"></a>
+                                            <a href="<?php the_permalink()?>"><img src="<?php the_post_thumbnail_url(); ?>" alt="img"></a>
                                         </div>
                                         <div class="rc-post-content">
-                                            <h5><a href="blog-details.html">Yoga</a></h5>
+                                            <h5><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h5>
                                             <div class="rc-post-date">
-                                                <span><i class="far fa-calendar-alt"></i>Jeudi</span>
+                                                <ul class="list-wrap">
+                                                <?php the_field('horaires');?>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="rc-post">
-                                        <div class="rc-post-thumb">
-                                            <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/activités/taichi.jpg" alt="img"></a>
-                                        </div>
-                                        <div class="rc-post-content">
-                                            <h5><a href="blog-details.html">Tai Chi</a></h5>
-                                            <div class="rc-post-date">
-                                                <span><i class="far fa-calendar-alt"></i>Mercredi</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rc-post">
-                                        <div class="rc-post-thumb">
-                                            <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/activités/gym.png" alt="img"></a>
-                                        </div>
-                                        <div class="rc-post-content">
-                                            <h5><a href="blog-details.html">Gym Douce</a></h5>
-                                            <div class="rc-post-date">
-                                                <span><i class="far fa-calendar-alt"></i>Lundi</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rc-post">
-                                        <div class="rc-post-thumb">
-                                            <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/activités/couture.jpg" alt="img"></a>
-                                        </div>
-                                        <div class="rc-post-content">
-                                            <h5><a href="blog-details.html">Atelier Couture</a></h5>
-                                            <div class="rc-post-date">
-                                                <span><i class="far fa-calendar-alt"></i>Mardi & Mercredi</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rc-post">
-                                        <div class="rc-post-thumb">
-                                            <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/activités/dejeuner.jpg" alt="img"></a>
-                                        </div>
-                                        <div class="rc-post-content">
-                                            <h5><a href="blog-details.html">Petit Dejeuner Papote</a></h5>
-                                            <div class="rc-post-date">
-                                                <span><i class="far fa-calendar-alt"></i>Premier Jeudi du mois</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <?php endwhile;
+                                    wp_reset_query();
+                                    ?>
+                                    <!-- Loop PHP Fin-->
                                 </div>
-                                <div class="widget mb-40">
+                                <!-- <div class="widget mb-40">
                                     <div class="sidebar-title mb-25">
                                         <h3 class="title">Categories</h3>
                                     </div>
@@ -370,7 +306,7 @@
                                             <li><a href="#">Petit Dejeuner Papote <span></span></a></li>
                                         </ul>
                                     </div>
-                                </div>
+                                </div> -->
                                 <!-- <div class="widget mb-40">
                                     <div class="sidebar-title mb-25">
                                         <h3 class="title">Never Miss News</h3>

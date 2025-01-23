@@ -53,7 +53,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-9">
-                        <a href="tel:027342453">
+                        <a href="tel:<?php the_field('telephone');?> ">
                             <div class="contact-box">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
@@ -67,7 +67,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-9">
-                        <a href="mailto:info@lenoyer.be">
+                        <a href="mailto:<?php the_field('mail');?>">
                             <div class="contact-box">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
@@ -330,12 +330,12 @@
                         <div class="col-xl-3">
                             <div class="home-team-item">
                                 <div class="photo-team">
-                                    <a href="shop-details.html">
+                                    <a href="<?php bloginfo("url")?>/equipe#accueil">
                                         <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content">
-                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe"><?php the_title(); ?></a></h4>
+                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe#accueil"><?php the_title(); ?></a></h4>
                                     <span class="home-shop-price"><?php the_field('role');?></span>
                                 </div>
                             </div>
@@ -359,12 +359,12 @@
                         <div class="col-xl-3">
                             <div class="home-team-item">
                                 <div class="photo-team">
-                                    <a href="shop-details.html">
+                                    <a href="<?php bloginfo("url")?>/equipe#medecin">
                                         <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content">
-                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe"><?php the_title(); ?></a></h4>
+                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe#medecin"><?php the_title(); ?></a></h4>
                                     <span class="home-shop-price">Médecin</span>
                                 </div>
                             </div>
@@ -388,12 +388,12 @@
                         <div class="col-xl-3">
                             <div class="home-team-item">
                                 <div class="photo-team">
-                                    <a href="shop-details.html">
+                                    <a href="<?php bloginfo("url")?>/equipe#assistant">
                                         <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content photo-team-content-big">
-                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe"><?php the_title(); ?></a></h4>
+                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe#assistant"><?php the_title(); ?></a></h4>
                                     <span class="home-shop-price"><?php the_field('role');?></span>
                                 </div>
                             </div>
@@ -417,12 +417,12 @@
                         <div class="col-xl-3">
                             <div class="home-team-item">
                                 <div class="photo-team">
-                                    <a href="shop-details.html">
+                                    <a href="<?php bloginfo("url")?>/equipe#kine">
                                         <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content">
-                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe"><?php the_title(); ?></a></h4>
+                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe#kine"><?php the_title(); ?></a></h4>
                                     <span class="home-shop-price">Kinésithérapeute</span>
                                 </div>
                             </div>
@@ -446,12 +446,12 @@
                         <div class="col-xl-3">
                             <div class="home-team-item">
                                 <div class="photo-team">
-                                    <a href="shop-details.html">
+                                    <a href="<?php bloginfo("url")?>/equipe#infirmier">
                                         <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content">
-                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe"><?php the_title(); ?></a></h4>
+                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe#infirmier"><?php the_title(); ?></a></h4>
                                     <span class="home-shop-price"><?php the_field('role');?></span>
                                 </div>
                             </div>
@@ -475,12 +475,12 @@
                         <div class="col-xl-3">
                             <div class="home-team-item">
                                 <div class="photo-team">
-                                    <a href="shop-details.html">
+                                    <a href="<?php bloginfo("url")?>/equipe#as">
                                         <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content">
-                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe"><?php the_title(); ?></a></h4>
+                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe#as"><?php the_title(); ?></a></h4>
                                     <span class="home-shop-price"><?php the_field('role');?></span>
                                 </div>
                             </div>
@@ -504,12 +504,12 @@
                         <div class="col-xl-3">
                             <div class="home-team-item">
                                 <div class="photo-team">
-                                    <a href="shop-details.html">
+                                    <a href="<?php bloginfo("url")?>/equipe#admin">
                                         <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content photo-team-content-big">
-                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe"><?php the_title(); ?></a></h4>
+                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe#admin"><?php the_title(); ?></a></h4>
                                     <span class="home-shop-price">Gestionnaire Administratif</span>
                                 </div>
                             </div>
@@ -533,12 +533,12 @@
                         <div class="col-xl-3">
                             <div class="home-team-item">
                                 <div class="photo-team">
-                                    <a href="shop-details.html">
+                                    <a href="<?php bloginfo("url")?>/equipe#coordinatrice">
                                         <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content photo-team-content-big">
-                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe"><?php the_title(); ?></a></h4>
+                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe#coordinatrice"><?php the_title(); ?></a></h4>
                                     <span class="home-shop-price"><?php the_field('role');?></span>
                                 </div>
                             </div>
@@ -562,12 +562,12 @@
                         <div class="col-xl-3">
                             <div class="home-team-item">
                                 <div class="photo-team">
-                                    <a href="shop-details.html">
+                                    <a href="<?php bloginfo("url")?>/equipe#entretien">
                                         <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
                                     </a>
                                 </div>
                                 <div class="home-shop-content photo-team-content">
-                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe"><?php the_title(); ?></a></h4>
+                                    <h4 class="title"><a href="<?php bloginfo("url")?>/equipe#entretien"><?php the_title(); ?></a></h4>
                                     <span class="home-shop-price">Entretien</span>
                                 </div>
                             </div>

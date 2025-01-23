@@ -3837,6 +3837,12 @@ body.search-visible {
 	margin-right: 7px;
     color: var(--tg-secondary-color);
 }
+.rc-post-date ul {
+list-style-type: none;
+}
+.rc-post-date ul a {
+	color: black;
+	}
 .rc-post:last-child {
 	padding-bottom: 0;
 	margin-bottom: 0;

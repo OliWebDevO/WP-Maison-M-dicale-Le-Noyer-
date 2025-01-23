@@ -201,110 +201,46 @@
                         </div>
                     </div>
                     <div class="row">
+                        <!-- Loop PHP Debut-->
+                        <?php
+                        $loop = new WP_Query( array( 
+                            'post_type' => 'activite-ponctuelle', // Va rechercher le type de contenu “job”
+                            'posts_per_page' => -1, // Affiche tout sans limite 
+                            'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                            'orderby' => 'name', // Ordonne par le nom de l'élément
+                            'order' => 'ASC', // Chronologique ou pas (DESC)
+                                ));?>
+                        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                        <!-- Ce qui doit être "bouclé" -->
                         <div class="col-lg-6">
                             <div class="blog-post-item-two">
                                 <div class="blog-post-thumb-two">
-                                    <a href="<?php bloginfo("url")?>/activitessingle"><img src="<?php bloginfo("template_url")?>/assets/img/activités/promenade.jpeg" alt="img"></a>
+                                    <a href="<?php the_permalink()?>"><img src="<?php the_post_thumbnail_url(); ?>" alt="img"></a>
                                 </div>
                                 <div class="blog-post-content-two">
                                     <div class="blog-post-meta">
                                         <ul class="list-wrap">
-                                            <li><a href="<?php bloginfo("url")?>/activitessingle">Promenade Découvertes</a></li>
-                                            <li><a href="<?php bloginfo("url")?>/activitessingle">Jeudi 04 octobre 2024 à 13h10</a></li>
+                                            <li><a href=""><?php the_field('type_dactivite');?></a></li>
+                                            <?php the_field('horaires');?>
                                         </ul>
                                     </div>
-                                    <h2 class="title"><a href="<?php bloginfo("url")?>/activitessingle">Visite de l'abbaye de la Cambre</a></h2>
-                                    <p>Roman vous emmène visiter "l'Abbaye de la Cambre" , lors de la prochaine "promenade découverte".</p>
+                                    <h2 class="title"><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h2>
+                                    <p> <?php the_field('description');?></p>
                                     <p>
                                         <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                        Activité Gratuite
+                                        <?php the_field('prix');?>
                                     </p>
                                     <p>
                                         <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                        Inscription : roman.parmentier@lenoyer.be ou  au 02/734 24 53
+                                        <?php the_field('inscription');?>
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="blog-post-item-two">
-                                <div class="blog-post-thumb-two">
-                                    <a href="<?php bloginfo("url")?>/activitessingle"><img src="<?php bloginfo("template_url")?>/assets/img/activités/velo.png" alt="img"></a>
-                                </div>
-                                <div class="blog-post-content-two">
-                                    <div class="blog-post-meta">
-                                        <ul class="list-wrap">
-                                            <li><a href="blog.html">initation au vélo</a></li>
-                                            <li><a href="blog.html">Mercredi 11/09 de 9h à 11h30</a></li>
-                                            <li><a href="blog.html">Mercredi 18/09 de 9h à 11h30</a></li>
-                                            <li><a href="blog.html">Mercredi 25/09 de 9h à 11h30</a></li>
-                                            <li><a href="blog.html">Mercredi 02/10 de 9h à 11h30</a></li>
-                                            <li><a href="blog.html">Mercredi 09/10 de 9h à 11h30</a></li>
-                                            <li><a href="blog.html">Mercredi 16/10 de 9h à 11h30</a></li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title"><a href="<?php bloginfo("url")?>/activitessingle">COURS DE VÉLO DÉBUTANT</a></h2>
-                                    <p>
-                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                        Activité Gratuite
-                                    </p>
-                                    <p>
-                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                        Inscription : corinne.gilon@lenoyer.be ou au 02/734 24 53
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="blog-post-item-two">
-                                <div class="blog-post-thumb-two">
-                                    <a href="<?php bloginfo("url")?>/activitessingle"><img src="<?php bloginfo("template_url")?>/assets/img/activités/taichi.jpg" alt="img"></a>
-                                </div>
-                                <div class="blog-post-content-two">
-                                    <div class="blog-post-meta">
-                                        <ul class="list-wrap">
-                                            <li><a href="<?php bloginfo("url")?>/activitessingle">Promenade Découvertes</a></li>
-                                            <li><a href="<?php bloginfo("url")?>/activitessingle">Jeudi 04 octobre 2024 à 13h10</a></li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title"><a href="<?php bloginfo("url")?>/activitessingle">Visite de l'abbaye de la Cambre</a></h2>
-                                    <p>Roman vous emmène visiter "l'Abbaye de la Cambre" , lors de la prochaine "promenade découverte".</p>
-                                    <p>
-                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                        Activité Gratuite
-                                    </p>
-                                    <p>
-                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                        Inscription : roman.parmentier@lenoyer.be ou  au 02/734 24 53
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="blog-post-item-two">
-                                <div class="blog-post-thumb-two">
-                                    <a href="<?php bloginfo("url")?>/activitessingle"><img src="<?php bloginfo("template_url")?>/assets/img/activités/cuisine.jpg" alt="img"></a>
-                                </div>
-                                <div class="blog-post-content-two">
-                                    <div class="blog-post-meta">
-                                        <ul class="list-wrap">
-                                            <li><a href="<?php bloginfo("url")?>/activitessingle">Promenade Découvertes</a></li>
-                                            <li><a href="<?php bloginfo("url")?>/activitessingle">Jeudi 04 octobre 2024 à 13h10</a></li>
-                                        </ul>
-                                    </div>
-                                    <h2 class="title"><a href="<?php bloginfo("url")?>/activitessingle">Visite de l'abbaye de la Cambre</a></h2>
-                                    <p>Roman vous emmène visiter "l'Abbaye de la Cambre" , lors de la prochaine "promenade découverte".</p>
-                                    <p>
-                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                        Activité Gratuite
-                                    </p>
-                                    <p>
-                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                        Inscription : roman.parmentier@lenoyer.be ou  au 02/734 24 53
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endwhile;
+                        wp_reset_query();
+                        ?>
+                        <!-- Loop PHP Fin-->
                     </div>
                 </div>
             </section>
@@ -327,150 +263,44 @@
                     </div>
                     <div class="tg-features-inner">
                         <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".6s">
-                                <div class="tg-features-item">
-                                    <div class="tg-features-icon">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - gym douce.png" alt="">
-                                    </div>
-                                    <div class="tg-features-content">
-                                        <h4 class="title">Gym Douce <br> Seniors</h4>
-                                        <p> 
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
-                                            Lundi de 10h45 à 11h45
-                                        </p>
-                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                            Petite participation financière demandée
-                                        </p>
-                                        <p>
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                            Inscription obligatoire
-                                        </p>
-                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
-                                    </div>
-                                </div>
-                            </div>
+
+                            <!-- Loop PHP Debut-->
+                            <?php
+                            $loop = new WP_Query( array( 
+                                'post_type' => 'activite-recurrente', // Va rechercher le type de contenu “job”
+                                'posts_per_page' => -1, // Affiche tout sans limite 
+                                'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                                'orderby' => 'name', // Ordonne par le nom de l'élément
+                                'order' => 'ASC', // Chronologique ou pas (DESC)
+                                    ));?>
+                            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                            <!-- Ce qui doit être "bouclé" -->
                             <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".6s">
                                 <div class="tg-features-item">
                                     <div class="tg-features-icon">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - gym douce.png" alt="">
+                                        <img src="<?php the_field('pictogramme');?>" alt="">
                                     </div>
                                     <div class="tg-features-content">
-                                        <h4 class="title">Gym Douce <br> Remise en forme</h4>
+                                        <h4 class="title"><?php the_title(); ?></h4>
                                         <p> 
                                             <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
-                                            Lundi de 12h00 à 13h00
+                                            <?php the_field('horaires');?>
                                         </p>
                                         <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                            Petite participation financière demandée
+                                        <?php the_field('prix');?>
                                         </p>
                                         <p>
                                             <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                            Inscription obligatoire
+                                            <?php the_field('inscription');?>
                                         </p>
-                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
+                                        <a href="<?php the_permalink()?>">En savoir plus</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".2s">
-                                <div class="tg-features-item">
-                                    <div class="tg-features-icon">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - atelier couture.png" alt="">
-                                    </div>
-                                    <div class="tg-features-content">
-                                        <h4 class="title">Atelier Couture</h4>
-                                        <p> 
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
-                                            Mardi & Mercredi de 11h00 à 12h00
-                                        </p>
-                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                            Petite participation financière demandée
-                                        </p>
-                                        <p>
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                            Inscription obligatoire
-                                        </p>
-                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".2s">
-                                <div class="tg-features-item">
-                                    <div class="tg-features-icon">
-                                       <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - tai chi.png" alt="">
-                                    </div>
-                                    <div class="tg-features-content">
-                                        <h4 class="title">Tai Chi</h4>
-                                        <p> 
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
-                                           Mercredi de 16h00 à 17h30
-                                        </p>
-                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                            Petite participation financière demandée
-                                        </p>
-                                        <p>
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                            Inscription obligatoire
-                                        </p>
-                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".4">
-                                <div class="tg-features-item">
-                                    <div class="tg-features-icon">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - yoga.png" alt="">
-                                    </div>
-                                    <div class="tg-features-content">
-                                        <h4 class="title">Yoga</h4>
-                                        <p> 
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
-                                            Jeudi de 17h30 à 18h30
-                                        </p>
-                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                            Petite participation financière demandée
-                                        </p>
-                                        <p>
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                            Inscription obligatoire
-                                        </p>
-                                        <a href="<?php bloginfo("url")?>/activitessingle">En Savoir Plus</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".4s">
-                                <div class="tg-features-item">
-                                    <div class="tg-features-icon">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - activité récurrente - promenade découvertes.png" alt="">
-                                    </div>
-                                    <div class="tg-features-content">
-                                        <h4 class="title">Promenade Découvertes</h4>
-                                        <p>1er jeudi du mois à 9h30s.</p>
-                                        <a href="contact.html">En savoir plus</a>
-                                    </div>
-                                </div>
-                            </div> -->
-                            <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".4s">
-                                <div class="tg-features-item">
-                                    <div class="tg-features-icon">
-                                        <img src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - ouverture.png" alt="">
-                                    </div>
-                                    <div class="tg-features-content">
-                                        <h4 class="title">Petit dejeuner papote</h4>
-                                        <p> 
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
-                                           Premier Jeudi du mois
-                                        </p>
-                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
-                                            Gratuit
-                                        </p>
-                                        <p>
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
-                                            Sans Inscription
-                                        </p>
-                                        <a href="<?php bloginfo("url")?>/activitessingle">En savoir plus</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php endwhile;
+                            wp_reset_query();
+                            ?>
+                            <!-- Loop PHP Fin-->
                         </div>
                     </div>
                 </div>

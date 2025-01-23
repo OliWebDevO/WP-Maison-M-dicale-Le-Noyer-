@@ -11,41 +11,27 @@
                         </div>
                     </div>
                     <div class="row brand-active">
+                        <!-- Loop PHP Debut-->
+                        <?php
+                        $loop = new WP_Query( array( 
+                            'post_type' => 'partenaire', // Va rechercher le type de contenu “job”
+                            'posts_per_page' => -1, // Affiche tout sans limite 
+                            'offset' => 3, // Commence la boucle après avoir "passé" les 3 premiers
+                            'orderby' => 'name', // Ordonne par le nom de l'élément
+                            'order' => 'ASC', // Chronologique ou pas (DESC)
+                                ));?>
+                        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                        <!-- Ce qui doit être "bouclé" -->
                         <div class="col-2">
                             <div class="brand-item">
-                                <a href="https://ccf.brussels/" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/Logo_Francophones_Bruxelles.png" alt="brand"></a>
+                                <a href=" <?php the_field('lien_vers_le_partenaire');?>" target="_blank"><img src="<?php the_post_thumbnail_url(); ?>" alt="brand"></a>
                             </div>
                         </div>
-                        <div class="col-2">
-                            <div class="brand-item">
-                                <a href="https://www.maisonmedicale.org/" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/fede.png" alt="brand"></a>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="brand-item">
-                                <a href="https://www.genrespluriels.be/Reseau-Psycho-Medico-Social-trans-inter-belge" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/ogo-rpmstib.png" alt="brand"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="brand-item">
-                                <a href="https://stop-violence.brussels/" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/stop.png" alt="brand"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="brand-item">
-                                <a href="https://brusselshealthnetwork.be/" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/logo-rsb.png" alt="brand"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/psybru.png" alt="brand"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="brand-item">
-                                <a href="#"><img src="<?php bloginfo("template_url")?>/assets/img/partenaires/roibaudoin.png" alt="brand"></a>
-                            </div>
-                        </div>
+                        <?php endwhile;
+                        wp_reset_query();
+                        ?>
+                        <!-- Loop PHP Fin-->
+                
                     </div>
                 </div>
             </div>
@@ -53,6 +39,27 @@
             <div class="footer-instagram">
                 <div class="container">
                     <div class="row g-0 instagram-active">
+                        <!-- Loop PHP Debut-->
+                        <?php
+                        $loop = new WP_Query( array( 
+                            'post_type' => 'activite-ponctuelle', // Va rechercher le type de contenu “job”
+                            'posts_per_page' => -1, // Affiche tout sans limite 
+                            'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                            'orderby' => 'name', // Ordonne par le nom de l'élément
+                            'order' => 'ASC', // Chronologique ou pas (DESC)
+                                ));?>
+                        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                        <!-- Ce qui doit être "bouclé" -->
+                        <div class="col-2">
+                            <div class="footer-insta-item">
+                                <a href="<?php the_permalink()?>" class="popup-image"><img src="<?php the_post_thumbnail_url(); ?>" alt="img"></a>
+                            </div>
+                        </div>
+                        <?php endwhile;
+                        wp_reset_query();
+                        ?>
+                        <!-- Loop PHP Fin-->
+
                         <div class="col-2">
                             <div class="footer-insta-item">
                                 <a href="<?php bloginfo("template_url")?>/assets/img/activités/taichi.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/taichi.jpg" alt="img"></a>
@@ -90,7 +97,7 @@
                 <div class="container">
                     <div class="footer-widgets-wrap">
                         <div class="row">
-                            <div class="col-lg-4 col-md-7">
+                            <div class="col-lg-6 col-md-7">
                                 <div class="footer-widget">
                                     <div class="footer-about">
                                         
@@ -118,11 +125,12 @@
                                         <li><a href="<?php bloginfo("url")?>/equipe">Equipe</a></li>
                                         <li><a href="<?php bloginfo("url")?>/reseau">Réseau</a></li>
                                         <li><a href="<?php bloginfo("url")?>/journal">Journal</a></li>
+                                        <li><a href="<?php bloginfo("url")?>/espace-patients">Espace Patients</a></li>
                                         <li><a href="<?php bloginfo("url")?>/contact">Contact & Accès</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-md-5 col-sm-6">
+                            <!-- <div class="col-lg-2 col-md-5 col-sm-6">
                                 <div class="footer-widget">
                                     <h4 class="fw-title">Activités</h4>
                                     <ul class="list-wrap">
@@ -135,17 +143,31 @@
                                         <li><a href="#">Tai Chi</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> -->
+                            <!-- Loop PHP Debut-->
+                            <?php
+                            $loop = new WP_Query( array( 
+                                'post_type' => 'contactacces', // Va rechercher le type de contenu “job”
+                                'posts_per_page' => -1, // Affiche tout sans limite 
+                                'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                                'orderby' => 'name', // Ordonne par le nom de l'élément
+                                'order' => 'ASC', // Chronologique ou pas (DESC)
+                                    ));?>
+                            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                            <!-- Ce qui doit être "bouclé" -->
                             <div class="col-lg-3 col-md-5">
                                 <div class="footer-widget">
                                     <h4 class="fw-title">Contact & Accès</h4>
                                     <div class="footer-contact-wrap">
-                                        <p>Avenue Félix Marchal, 1a
-                                            1030 Schaerbeek</p>
+                                        <p><?php the_field('adresse');?></p>
                                         <ul class="list-wrap">
-                                            <li class="phone"><i class="fas fa-phone"></i> (Tel) : 02/734.24.53</li>
-                                            <li class="phone"><i class="fas fa-phone"></i> (Fax) : 02/734.29.27</li>
-                                            <li class="mail"><i class="fas fa-envelope"></i> info@lenoyer.be</li>
+                                            <a href="tel:<?php the_field('telephone');?>">
+                                                <li class="phone"><i class="fas fa-phone"></i>
+                                            </a> (Tel) : <?php the_field('telephone');?></li>
+                                            <li class="phone"><i class="fas fa-phone"></i> (Fax) : <?php the_field('fax');?></li>
+                                            <a href="mailto:<?php the_field('mail');?>">
+                                                <li class="mail"><i class="fas fa-envelope"></i> <?php the_field('mail');?></li>
+                                            </a>
                                         </ul>
                                     </div>
 
@@ -153,9 +175,15 @@
                                             <div class="footer-logo logo">
                                                 <a href="index.html"><img class='logo-footer' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
                                             </div>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="<?php the_field('facebook');?>" target='blank'><i class="fab fa-facebook-f"></i></a>
                                         </div>
                                 </div>
+
+                                <?php endwhile;
+                                wp_reset_query();
+                                ?>
+                                <!-- Loop PHP Fin-->
+                                 
                             </div>
                         </div>
                     </div>
