@@ -109,7 +109,7 @@
                     <!-- Loop PHP Fin-->
 
                     <div class="col-lg-6 col-md-6 col-sm-9">
-                        <a href="mailto:info@lenoyer.be">
+                        <a href="https://www.gbbw.be/" target ='blank'>
                             <div class="contact-box contact-big">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->

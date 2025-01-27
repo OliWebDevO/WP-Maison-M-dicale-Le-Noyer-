@@ -4694,6 +4694,7 @@ list-style-type: none;
 	img {
 		width: 100%;
 		min-height: 258px;
+		max-height: 258px;
 		object-fit: cover;
 		object-position: center;
 	}

@@ -52,7 +52,7 @@
                         <!-- Ce qui doit être "bouclé" -->
                         <div class="col-2">
                             <div class="footer-insta-item">
-                                <a href="<?php the_permalink()?>" class="popup-image"><img src="<?php the_post_thumbnail_url(); ?>" alt="img"></a>
+                                <a href="<?php the_permalink()?>" ><img src="<?php the_post_thumbnail_url(); ?>" alt="img"></a>
                             </div>
                         </div>
                         <?php endwhile;
@@ -60,36 +60,28 @@
                         ?>
                         <!-- Loop PHP Fin-->
 
+                        <!-- Loop PHP Debut-->
+                        <?php
+                        $loop = new WP_Query( array( 
+                            'post_type' => 'activite-recurrente', // Va rechercher le type de contenu “job”
+                            'posts_per_page' => -1, // Affiche tout sans limite 
+                            'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                            'orderby' => 'name', // Ordonne par le nom de l'élément
+                            'order' => 'ASC', // Chronologique ou pas (DESC)
+                                ));?>
+                        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                        <!-- Ce qui doit être "bouclé" -->
                         <div class="col-2">
-                            <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/taichi.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/taichi.jpg" alt="img"></a>
-                            </div>
+                                <div class="footer-insta-item">
+                                    <a href="<?php the_permalink()?>" ><img src="<?php the_post_thumbnail_url(); ?>" alt="img"></a>
+                                </div>
                         </div>
-                        <div class="col-2">
-                            <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/couture.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/couture.jpg" alt="img"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/promenade.jpeg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/promenade.jpeg" alt="img"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/cuisine.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/cuisine.jpg" alt="img"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/dejeuner.jpg" class="popup-image"><img src="<?php bloginfo("template_url")?>/assets/img/activités/dejeuner.jpg" alt="img"></a>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="footer-insta-item">
-                                <a href="<?php bloginfo("template_url")?>/assets/img/activités/gym.png"><img src="<?php bloginfo("template_url")?>/assets/img/activités/gym.png" alt="img"></a>
-                            </div>
-                        </div>
+                        <?php endwhile;
+                        wp_reset_query();
+                        ?>
+                        <!-- Loop PHP Fin-->
+
+                     
                     </div>
                 </div>
             </div>
@@ -173,7 +165,7 @@
 
                                     <div class="footer-social">
                                             <div class="footer-logo logo">
-                                                <a href="index.html"><img class='logo-footer' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
+                                                <a href="<?php bloginfo("url")?>"><img class='logo-footer' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="Logo"></a>
                                             </div>
                                             <a href="<?php the_field('facebook');?>" target='blank'><i class="fab fa-facebook-f"></i></a>
                                         </div>
