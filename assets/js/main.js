@@ -763,4 +763,3 @@ window.addEventListener("scroll", function() {
         nav.style.transform = "translateY(0)";
     }
 });
-

@@ -243,7 +243,7 @@
             </div>
         </div>
     </section>
-    <!-- contact-area-end -->
+        <!-- contact-area-end -->
 
             <!-- contact-form-end -->
             <section class="contact-form-area">
@@ -260,19 +260,21 @@
                                     <p class="sub-title">newsletter</p>
                                     <h2 class="title">Rejoignez <br> la newsletter</h2>
                                 </div>
-                                <form id="contact-form" action="inc/contact.php" class="contact-form" data-toggle="validator">
+                                 <!-- <form id="contact-form" action="inc/contact.php" class="contact-form" data-toggle="validator"> -->
+                                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-toggle="validator">
+                                    <input type="hidden" name="access_key" value="3623632f-c6b3-4739-a3fc-5351b2aac174">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-grp">
                                                 <label for="full-name">Nom</label>
-                                                <input type="text" id="full-name" placeholder="Votre nom" required="required" data-error="Veuillez écrire votre nom.">
+                                                <input name="Nom" type="text" id="full-name" placeholder="Votre nom" required>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-grp">
                                                 <label for="email">Email</label>
-                                                <input type="email" id="email" placeholder="Votre email" required="required" data-error="Veuillez introduire votre email">
+                                                <input name="Email" type="email" id="email" placeholder="Votre email" required>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
@@ -281,103 +283,37 @@
                                                 <fieldset>
                                                     <!-- <label class='cb-title' for="choix">Inscription</label> -->
                                                     <div class='cb-flex m0'>
-                                                        <input type="radio" id="check1" name="check-news"/>
+                                                        <input name="inscription à la newsletter" type="checkbox" id="check1" onclick="document.getElementById('check2').checked = false" />
                                                         <label for="check1">S'inscrire à la newsletter </label>
                                                     </div>
-                                                    <!-- <div class='cb-flex'>
-                                                        <input type="checkbox" id="check3" name="check3" />
-                                                        <label for="check3">S'inscrire au journal au format mail</label>
-                                                    </div> -->
+                                              
                                                 </fieldset>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-grp cb">
                                                 <fieldset>
-                                                    <!-- <label class='cb-title' for="choix">Désinscription</label> -->
                                                     <div class='cb-flex m0'>
-                                                        <input type="radio" id="check2" name="check-news"/>
+                                                        <input name="désinscription à la newsletter" type="checkbox" id="check2" onclick="document.getElementById('check1').checked = false"/>
                                                         <label for="check2">Se désinscrire de la newsletter </label>
                                                     </div>
 
-                                                    <!-- <div class='cb-flex'>
-                                                        <input type="checkbox" id="check2" name="check2" />
-                                                        <label for="check2">Se désinscrire du journal au format papier </label>
-                                                    </div>
-                                                    <div class='cb-flex'>
-                                                        <input type="checkbox" id="check3" name="check3" />
-                                                        <label for="check3">Se désinscrire du journal au format mail</label>
-                                                    </div> -->
+                                         
                                                 </fieldset>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- <select class="form-select" aria-label="Default select example">
-                                        <option selected disabled>Select Subject **</option>
-                                        <option value="1">Delivery & Orders</option>
-                                        <option value="2">Diet & Exercise</option>
-                                        <option value="3">Marketing & Press</option>
-                                        <option value="4">Share Your Success</option>
-                                        <option value="5">Wholesale And Returns</option>
-                                    </select> 
-                                    <div class="form-grp">
-                                        <label for="message">Message</label>
-                                        <textarea name="message" id="message" placeholder="Enter here" required="required" data-error="Message is required."></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div> -->
+                                    <input type="hidden" name="redirect" value="https://testopia.pro">
                                     <div class="form-btn">
                                         <button type="submit" class="btn">Rejoindre</button>
                                     </div>
-                                    <!-- <div class="messages"></div> -->
                                 </form>
                             </div>
-                            <!-- <div class="contact-form-wrap">
-                                <div class="section-title mb-50">
-                                    <p class="sub-title">.. request make ..</p>
-                                    <h2 class="title">Asked Anything You <br> Want To Know</h2>
-                                </div>
-                                <form id="contact-form" action="inc/contact.php" class="contact-form" data-toggle="validator">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <div class="form-grp">
-                                                <label for="full-name">Full Name</label>
-                                                <input type="text" id="full-name" placeholder="Enter here" required="required" data-error="Name is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="form-grp">
-                                                <label for="email">Email Address</label>
-                                                <input type="email" id="email" placeholder="Enter here" required="required" data-error="Email is required.">
-                                                <div class="help-block with-errors"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected disabled>Select Subject **</option>
-                                        <option value="1">Delivery & Orders</option>
-                                        <option value="2">Diet & Exercise</option>
-                                        <option value="3">Marketing & Press</option>
-                                        <option value="4">Share Your Success</option>
-                                        <option value="5">Wholesale And Returns</option>
-                                    </select>
-                                    <div class="form-grp">
-                                        <label for="message">Message</label>
-                                        <textarea name="message" id="message" placeholder="Enter here" required="required" data-error="Message is required."></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="form-btn">
-                                        <button type="submit" class="btn">make request</button>
-                                    </div>
-                                    <div class="messages"></div>
-                                </form>
-                            </div> -->
                         </div>
                     </div>
                 </div>
             </section>
             <!-- contact-form-area-end -->
-
         </main>
         <!-- main-area-end -->
  

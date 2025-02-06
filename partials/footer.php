@@ -192,7 +192,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-12">
                             <div class="copyright-text">
-                                <p>La Maison médicale Le Noyer asbl respecte le RGPD et, par là même, respecte le droit des personnes physiques à l’égard de la protection de leurs données personnelles. <br>Si vous souhaitez en savoir plus, n’hésitez pas à consulter notre politique de confidentialité <a href="https://www.lenoyer.be/rgpd">ici</a></p>
+                                <p>La Maison médicale Le Noyer asbl respecte le RGPD et, par là même, respecte le droit des personnes physiques à l’égard de la protection de leurs données personnelles. <br>Si vous souhaitez en savoir plus, n’hésitez pas à consulter notre politique de confidentialité <a href="<?php bloginfo("url")?>/rgpd">ici</a></p>
                             </div>
                         </div>
                         <div class="col-md-5">
