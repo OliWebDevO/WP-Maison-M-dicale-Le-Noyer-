@@ -64,7 +64,7 @@
                 <nav class="menu-box">
                     <div class="close-btn"><i class="fas fa-times"></i></div>
                     <div class="nav-logo">
-                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="logo"></a>
                     </div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -153,7 +153,7 @@
                         <a href="<?php the_field('lien_web');?>" target="_blank">
                             <div class="contact-box reseau-box">
                                 <div class="contact-icon">
-                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="">
+                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="association">
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title"><?php the_title(); ?></h5>

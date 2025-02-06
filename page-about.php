@@ -64,7 +64,7 @@
                 <nav class="menu-box">
                     <div class="close-btn"><i class="fas fa-times"></i></div>
                     <div class="nav-logo">
-                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="logo"></a>
                     </div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -233,29 +233,29 @@
             <div class="row justify-content-center big-tryptique">
                 <div class="col-lg-12">
                    <!-- <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/asset 3.png" alt=""> -->
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="triptyque">
                 </div>
             </div>
             <div class="row justify-content-center big-tryptique">
                 <div class="col-lg-12">
                    <!-- <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/asset 3.png" alt=""> -->
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/big.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/big.png" alt="triptyque">
                 </div>
             </div>
             <div class="row justify-content-center big-triptyque">
                 <div class="col-lg-12">
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="triptyque">
                 </div>
             </div>
             <div class="row justify-content-center mobile-tryptique ">
                 <div class="col-lg-4 col-md-11 mil-mb-120">
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/1.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/1.png" alt="triptyque">
                 </div>
                 <div class="col-lg-4 col-md-11 mil-mb-120">
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/2.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/2.png" alt="triptyque">
                 </div>
                 <div class="col-lg-4 col-md-11 mil-mb-120">
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/3.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/3.png" alt="triptyque">
                 </div>
             </div>
         </div>

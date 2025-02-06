@@ -13,7 +13,7 @@
                     <div class="banner-content text-center">
                         <p class="banner-caption">.. 
                             Avenue Félix Marchal, 1a 1030 Schaerbeek  ..</p>
-                        <h2 class="title colortitle">Maison Médicale Le Noyer</h2>
+                        <h1 class="title colortitle">Maison Médicale Le Noyer</h1>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
                             <div class="contact-box contact-big contact-img-box">
                                 <div class="contact-icon">
                                     <!-- <i class="fa-solid fa-clock"></i> -->
-                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="">
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="Horloge">
                                 </div>
                                 <!-- <div class="contact-content">
                                     <h5 class="title">Horaires</h5>
@@ -97,8 +97,8 @@
                                 <div class="contact-content">
                                     <h5 class="title">Horaires</h5>
                                 </div>
-                                <img class='horaires' src="<?php the_field('photo_horaires');?>" alt="">
-                                <img class='horaires2' src="<?php the_field('photo_complementaire_de_lhoraire');?>" alt="">
+                                <img class='horaires' src="<?php the_field('photo_horaires');?>" alt="Horaires">
+                                <img class='horaires2' src="<?php the_field('photo_complementaire_de_lhoraire');?>" alt="Complément d'horaire">
                             </div>
                         </a>
                     </div>
@@ -113,16 +113,16 @@
                             <div class="contact-box contact-big">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="">
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="Horloge">
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title">Garde</h5>
                                     <br class='mobile-hidden'><br class='mobile-hidden'><br class='mobile-hidden'>
                                     <p class="contact-desc"></p>
                                     <p>L'accueil reste joignable durant les heures de fermeture du temps de midi pour les urgences médicales.</p>
-                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/garde.jpeg" alt="">
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/garde.jpeg" alt="Garde">
                                     <p>Après 19h, les week-ends et les jours fériés ; Appelez la garde bruxelloise au :</p>
-                                    <img class='horaires3' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/1733.png" alt="">
+                                    <img class='horaires3' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/1733.png" alt="Autre poste de garde">
                                     <p>Ou rendez-vous aux postes de garde : <br> Chaussée de Haecht 579, 1030 schaerbeek <br> Rue d'Oultremont 54, 1040 etterbeek</p>
                                     <br class='mobile-hidden'>
                                     <br class='mobile-hidden'>
@@ -153,29 +153,29 @@
             <div class="row justify-content-center big-tryptique">
                 <div class="col-lg-12">
                    <!-- <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/asset 3.png" alt=""> -->
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="img">
                 </div>
             </div>
             <div class="row justify-content-center big-tryptique">
                 <div class="col-lg-12">
                    <!-- <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/asset 3.png" alt=""> -->
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/big.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/big.png" alt="img">
                 </div>
             </div>
             <div class="row justify-content-center big-triptyque">
                 <div class="col-lg-12">
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/fin.png" alt="img">
                 </div>
             </div>
             <div class="row justify-content-center mobile-tryptique ">
                 <div class="col-lg-4 col-md-11 mil-mb-120">
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/1.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/1.png" alt="img">
                 </div>
                 <div class="col-lg-4 col-md-11 mil-mb-120">
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/2.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/2.png" alt="img">
                 </div>
                 <div class="col-lg-4 col-md-11 mil-mb-120">
-                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/3.png" alt="">
+                   <img src="<?php bloginfo("template_url")?>/assets/img/triptyque/3.png" alt="img">
                 </div>
             </div>
         </div>
@@ -189,7 +189,7 @@
                 <div class="col-xxl-6 col-lg-5 order-0 order-lg-2">
                     <!-- <div class="features-img wow featuresRollOut" data-wow-delay=".3s"> -->
                     <div class="features-img wow fadeInRight" data-wow-delay=".3s">
-                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic_2.png" alt="">
+                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/04_medical_clinic_2.png" alt="clinique">
                     </div>
                 </div>
                 <div class="col-xxl-6 col-lg-7">
@@ -199,7 +199,7 @@
                                 <a href="<?php bloginfo("url")?>/services#medecine">
                                     <div class="features-item">
                                         <div class="features-icon">
-                                            <img class="service-icon" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - métier - médecin.png" alt="">
+                                            <img class="service-icon" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - métier - médecin.png" alt="médecin">
                                         </div>
                                         <div class="features-content">
                                             <h4 class="title">Médecine Générale</h4>
@@ -211,7 +211,7 @@
                                 <a href="<?php bloginfo("url")?>/services#servicekine">
                                     <div class="features-item">
                                         <div class="features-icon">
-                                            <img class="service-icon" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - métier - kiné.png" alt="">
+                                            <img class="service-icon" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - métier - kiné.png" alt="kiné">
                                         </div>
                                         <div class="features-content">
                                             <h4 class="title">Kinésithérapie</h4>
@@ -223,7 +223,7 @@
                                 <a href="<?php bloginfo("url")?>/services#serviceinfi">
                                     <div class="features-item">
                                         <div class="features-icon">
-                                            <img class="service-icon" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - métier - infirmier.png" alt="">
+                                            <img class="service-icon" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - métier - infirmier.png" alt="infirmerie">
                                         </div>
                                         <div class="features-content">
                                             <h4 class="title">Infirmerie</h4>
@@ -235,7 +235,7 @@
                                 <a href="<?php bloginfo("url")?>/services#serviceas">
                                     <div class="features-item">
                                         <div class="features-icon">
-                                            <img class="service-icon" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - blanc - métier - AS.png" alt="">
+                                            <img class="service-icon" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - blanc - métier - AS.png" alt="assistance sociale">
                                         </div>
                                         <div class="features-content">
                                             <h4 class="title">Assistance sociale</h4>

@@ -64,7 +64,7 @@
                 <nav class="menu-box">
                     <div class="close-btn"><i class="fas fa-times"></i></div>
                     <div class="nav-logo">
-                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="logo"></a>
                     </div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -223,7 +223,7 @@
                         <div class="col-lg-6">
                             <div class="blog-post-item-two">
                                 <div class="blog-post-thumb-two">
-                                    <a href="<?php the_permalink()?>"><img src="<?php the_post_thumbnail_url(); ?>" alt="img"></a>
+                                    <a href="<?php the_permalink()?>"><img src="<?php the_post_thumbnail_url(); ?>" alt="photo de l'événement"></a>
                                 </div>
                                 <div class="blog-post-content-two">
                                     <div class="blog-post-meta">
@@ -235,11 +235,11 @@
                                     <h2 class="title"><a href="<?php the_permalink()?>"><?php the_title(); ?></a></h2>
                                     <p> <?php the_field('description');?></p>
                                     <p>
-                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
+                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="prix">
                                         <?php the_field('prix');?>
                                     </p>
                                     <p>
-                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
+                                        <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="inscription">
                                         <?php the_field('inscription');?>
                                     </p>
                                 </div>
@@ -286,19 +286,19 @@
                             <div class="col-lg-4 col-md-6 col-sm-8 wow fadeInUp" data-wow-delay=".6s">
                                 <div class="tg-features-item">
                                     <div class="tg-features-icon">
-                                        <img src="<?php the_field('pictogramme');?>" alt="">
+                                        <img src="<?php the_field('pictogramme');?>" alt="picto">
                                     </div>
                                     <div class="tg-features-content">
                                         <h4 class="title"><?php the_title(); ?></h4>
                                         <p> 
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="">
+                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - date.png" alt="date">
                                             <?php the_field('horaires');?>
                                         </p>
-                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="">
+                                        <p><img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - prix.png" alt="prix">
                                         <?php the_field('prix');?>
                                         </p>
                                         <p>
-                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="">
+                                            <img class="picto-activites" src="<?php bloginfo("template_url")?>/assets/img/Pictogrammes/sans titre - vert - général - inscription.png" alt="inscription">
                                             <?php the_field('inscription');?>
                                         </p>
                                         <a href="<?php the_permalink()?>">En savoir plus</a>

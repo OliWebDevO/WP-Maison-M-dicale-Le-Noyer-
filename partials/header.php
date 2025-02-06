@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="fr">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Le Noyer - Maison Médicale</title>
-        <meta name="description" content="Le Noyer est une maison médicale composée d'une équipe pluridisciplinaire dispensant des soins de première ligne, de qualité, accessibles, continus, globaux et intégrés.  Elle s’adresse à l’ensemble de la population.​">
+        <meta name="description" content="Le Noyer est une maison médicale composée d'une équipe pluridisciplinaire dispensant des soins de qualité, accessibles, continus, globaux et intégrés.​">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico in the root directory -->

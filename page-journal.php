@@ -64,7 +64,7 @@
                 <nav class="menu-box">
                     <div class="close-btn"><i class="fas fa-times"></i></div>
                     <div class="nav-logo">
-                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="logo"></a>
                     </div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -227,7 +227,7 @@
                             <div class="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
                                 <div class="tg-testimonial-item">
                                     <div class="tg-testimonial-thumb">
-                                        <a href="<?php the_field('lien_vers_le_journal');?>" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/journal.jpg" alt=""></a>
+                                        <a href="<?php the_field('lien_vers_le_journal');?>" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/journal.jpg" alt="journal"></a>
                                     </div> 
                                     <div class="tg-testimonial-content">
                                         <h2 class="title"><?php the_title(); ?></h2>

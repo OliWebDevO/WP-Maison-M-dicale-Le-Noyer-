@@ -64,7 +64,7 @@
                 <nav class="menu-box">
                     <div class="close-btn"><i class="fas fa-times"></i></div>
                     <div class="nav-logo">
-                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="logo"></a>
                     </div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -162,7 +162,7 @@
                                         <div class="home-team-item">
                                             <div class="photo-team">
                                                 <a href="<?php bloginfo("url")?>/equipe#accueil">
-                                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="membre de l'équipe">
                                                 </a>
                                             </div>
                                             <div class="home-shop-content photo-team-content">
@@ -206,7 +206,7 @@
                                         <div class="home-team-item">
                                             <div class="photo-team">
                                                 <a href="<?php bloginfo("url")?>/equipe#medecin">
-                                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="membre de l'équipe">
                                                 </a>
                                             </div>
                                             <div class="home-shop-content photo-team-content">
@@ -250,7 +250,7 @@
                                     <div class="home-team-item">
                                         <div class="photo-team">
                                             <a href="<?php bloginfo("url")?>/equipe#assistant">
-                                                <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                                <img src="<?php the_post_thumbnail_url(); ?>" alt="membre de l'équipe">
                                             </a>
                                         </div>
                                         <div class="home-shop-content photo-team-content photo-team-content-big">
@@ -294,7 +294,7 @@
                                 <div class="home-team-item">
                                     <div class="photo-team">
                                         <a href="<?php bloginfo("url")?>/equipe#kine">
-                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="membre de l'équipe">
                                         </a>
                                     </div>
                                     <div class="home-shop-content photo-team-content">
@@ -338,7 +338,7 @@
                                 <div class="home-team-item">
                                     <div class="photo-team">
                                         <a href="<?php bloginfo("url")?>/equipe#infirmier">
-                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="membre de l'équipe">
                                         </a>
                                     </div>
                                     <div class="home-shop-content photo-team-content">
@@ -382,7 +382,7 @@
                                 <div class="home-team-item">
                                     <div class="photo-team">
                                         <a href="<?php bloginfo("url")?>/equipe#as">
-                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="membre de l'équipe">
                                         </a>
                                     </div>
                                     <div class="home-shop-content photo-team-content">
@@ -426,7 +426,7 @@
                                 <div class="home-team-item">
                                     <div class="photo-team">
                                         <a href="<?php bloginfo("url")?>/equipe#admin">
-                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="membre de l'équipe">
                                         </a>
                                     </div>
                                     <div class="home-shop-content photo-team-content photo-team-content-big">
@@ -470,7 +470,7 @@
                                 <div class="home-team-item">
                                     <div class="photo-team">
                                         <a href="<?php bloginfo("url")?>/equipe#coordinatrice">
-                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="membre de l'équipe">
                                         </a>
                                     </div>
                                     <div class="home-shop-content photo-team-content photo-team-content-big">
@@ -514,7 +514,7 @@
                                 <div class="home-team-item">
                                     <div class="photo-team">
                                         <a href="<?php bloginfo("url")?>/equipe#entretien">
-                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                            <img src="<?php the_post_thumbnail_url(); ?>" alt="membre de l'équipe">
                                         </a>
                                     </div>
                                     <div class="home-shop-content photo-team-content">

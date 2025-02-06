@@ -64,7 +64,7 @@
                 <nav class="menu-box">
                     <div class="close-btn"><i class="fas fa-times"></i></div>
                     <div class="nav-logo">
-                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="logo"></a>
                     </div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -194,7 +194,7 @@
                             <div class="contact-box contact-big contact-img-box">
                                 <div class="contact-icon">
                                     <!-- <i class="fa-solid fa-clock"></i> -->
-                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="">
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="horloge">
                                 </div>
                                 <!-- <div class="contact-content">
                                     <h5 class="title">Horaires</h5>
@@ -207,7 +207,7 @@
                                     <h5 class="title">Horaires</h5>
                                 </div>
                                 <img class='horaires' src="<?php the_field('photo_horaires');?>" alt="">
-                                <img class='horaires2' src="<?php the_field('photo_complementaire_de_lhoraire');?>" alt="">
+                                <img class='horaires2' src="<?php the_field('photo_complementaire_de_lhoraire');?>" alt="complément de l'horaire">
                             </div>
                         </a>
                     </div>
@@ -222,16 +222,16 @@
                             <div class="contact-box contact-big">
                                 <div class="contact-icon">
                                     <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
-                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="">
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/clock.png" alt="horloge">
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title">Garde</h5>
                                     <br class='mobile-hidden'><br class='mobile-hidden'><br class='mobile-hidden'>
                                     <p class="contact-desc"></p>
                                     <p>L'accueil reste joignable durant les heures de fermeture du temps de midi pour les urgences médicales.</p>
-                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/garde.jpeg" alt="">
+                                    <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/garde.jpeg" alt="garde">
                                     <p>Après 19h, les week-ends et les jours fériés ; Appelez la garde bruxelloise au :</p>
-                                    <img class='horaires3' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/1733.png" alt="">
+                                    <img class='horaires3' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/1733.png" alt="autre poste de garde">
                                     <p>Ou rendez-vous aux postes de garde : <br> Chaussée de Haecht 579, 1030 schaerbeek <br> Rue d'Oultremont 54, 1040 etterbeek</p>
                                     <br class='mobile-hidden'>
                                     <br class='mobile-hidden'>

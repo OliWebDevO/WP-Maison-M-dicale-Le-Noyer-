@@ -64,7 +64,7 @@
                 <nav class="menu-box">
                     <div class="close-btn"><i class="fas fa-times"></i></div>
                     <div class="nav-logo">
-                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="logo"></a>
                     </div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -141,7 +141,7 @@
                         <div class="col-lg-8">
                             <div class="blog--post--item">
                                 <div class="blog--post--thumb">
-                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                    <img src="<?php the_post_thumbnail_url(); ?>" alt="événement">
                                 </div>
                                 <div class="blog--post--content blog-details-content">
                                 <div class="blog-post-meta">

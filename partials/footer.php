@@ -24,7 +24,7 @@
                         <!-- Ce qui doit être "bouclé" -->
                         <div class="col-2">
                             <div class="brand-item">
-                                <a href=" <?php the_field('lien_vers_le_partenaire');?>" target="_blank"><img src="<?php the_post_thumbnail_url(); ?>" alt="brand"></a>
+                                <a href=" <?php the_field('lien_vers_le_partenaire');?>" target="_blank"><img src="<?php the_post_thumbnail_url(); ?>" alt="partenaire"></a>
                             </div>
                         </div>
                         <?php endwhile;

@@ -64,7 +64,7 @@
                 <nav class="menu-box">
                     <div class="close-btn"><i class="fas fa-times"></i></div>
                     <div class="nav-logo">
-                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt=""></a>
+                        <a href="<?php bloginfo("url")?>"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/logo.png" alt="logo"></a>
                     </div>
                     <div class="menu-outer">
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
@@ -169,7 +169,7 @@
                             <div class="col-lg-6 col-md-8">
                                 <div class="features-products-thumb wow fadeInLeft" data-wow-delay=".2s">
                                     <div class="main-img">
-                                        <img src="<?php the_post_thumbnail_url(); ?>" alt="img">
+                                        <img src="<?php the_post_thumbnail_url(); ?>" alt="espace patients info">
                                     </div>
                                 </div>
                             </div>
