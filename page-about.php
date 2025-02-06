@@ -15,10 +15,10 @@
                                     </div>
                                     <div class="navbar-wrap main-menu d-none d-xl-flex">
                                         <ul class="navigation">
-                                            <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>" class="section-link">Accueil</a>
+                                            <li><a href="<?php bloginfo("url")?>" class="section-link">Accueil</a>
                                             </li>
                                             <li class='active'><a href="<?php bloginfo("url")?>/about" class="section-link">Fonctionnement</a></li>
-                                            <li><a href="<?php bloginfo("url")?>/services" class="section-link">Consultations</a>
+                                            <li class="menu-item-has-children"><a href="<?php bloginfo("url")?>/services" class="section-link">Consultations</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="<?php bloginfo("url")?>/services#servicemedecine">Médecine Générale</a></li>
                                                     <li><a href="<?php bloginfo("url")?>/services#servicekine">Kinésithérapie</a></li>
