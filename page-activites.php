@@ -137,29 +137,34 @@
                                     <p class="sub-title">Pour vous tenir au courant des activités proposées, rejoignez la newsletter</p>
                                     <h2 class="title">Inscription </h2>
                                 </div>
-                                <form id="contact-form" action="inc/contact.php" class="contact-form" data-toggle="validator">
+                                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-toggle="validator">
+                                    <input type="hidden" name="access_key" value="3623632f-c6b3-4739-a3fc-5351b2aac174">
+                                    <input type="hidden" name="subject" value="Vous avez reçu un nouveau formulaire de la part d'un visiteur de votre site web">
+                                    <input type="hidden" name="from_name" value="Notification | lenoyer.be">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-grp">
                                                 <label for="full-name">Nom</label>
-                                                <input type="text" id="full-name" placeholder="Votre nom" required="required" data-error="Veuillez écrire votre nom.">
+                                                <input name="Nom" type="text" id="full-name" placeholder="Votre nom" required>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-grp">
                                                 <label for="email">Email</label>
-                                                <input type="email" id="email" placeholder="Votre email" required="required" data-error="Veuillez introduire votre email">
+                                                <input name="Email" type="email" id="email" placeholder="Votre email" required>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-12">
                                             <div class="form-grp cb">
                                                 <fieldset>
+                                                    <!-- <label class='cb-title' for="choix">Inscription</label> -->
                                                     <div class='cb-flex m0'>
-                                                        <input name='check-news' type="radio" id="check1" name="check1"/>
+                                                        <input name="inscription à la newsletter" type="checkbox" id="check1" onclick="document.getElementById('check2').checked = false" />
                                                         <label for="check1">S'inscrire à la newsletter </label>
                                                     </div>
+                                              
                                                 </fieldset>
                                             </div>
                                         </div>
@@ -167,15 +172,18 @@
                                             <div class="form-grp cb">
                                                 <fieldset>
                                                     <div class='cb-flex m0'>
-                                                        <input name='check-news' type="radio" id="check1" name="check2"/>
+                                                        <input name="désinscription à la newsletter" type="checkbox" id="check2" onclick="document.getElementById('check1').checked = false"/>
                                                         <label for="check2">Se désinscrire de la newsletter </label>
                                                     </div>
+
+                                         
                                                 </fieldset>
                                             </div>
                                         </div>
                                     </div>
+                                    <input type="hidden" name="redirect" value="<?php bloginfo("url")?>/succes">
                                     <div class="form-btn">
-                                        <button type="submit" class="btn">Envoyer</button>
+                                        <button type="submit" class="btn">Rejoindre</button>
                                     </div>
                                 </form>
                             </div>

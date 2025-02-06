@@ -119,7 +119,7 @@
                         <nav aria-label="Breadcrumbs" class="breadcrumb-trail">
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item trail-item trail-begin">
-                                    <a href="index.html"><span>Accueil</span></a>
+                                    <a href="<?php bloginfo("url")?>"><span>Accueil</span></a>
                                 </li>
                                 <li class="breadcrumb-item trail-item trail-end"><span>Espace Patients</span></li>
                             </ul>

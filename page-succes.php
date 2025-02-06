@@ -119,9 +119,9 @@
                         <nav aria-label="Breadcrumbs" class="breadcrumb-trail">
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item trail-item trail-begin">
-                                    <a href="index.html"><span>Accueil</span></a>
+                                    <a href="<?php bloginfo("url")?>"><span>Accueil</span></a>
                                 </li>
-                                <li class="breadcrumb-item trail-item trail-end"><span>Formulaire envoyé</span></li>
+                                <li class="breadcrumb-item trail-item trail-end"><span>Succès de l'envoi du formulaire</span></li>
                             </ul>
                         </nav>
                     </div>
@@ -135,8 +135,10 @@
     <section id="lenoyer" class="contact-area">
         <div class="container">
             <div class="contact-box-wrapper">
-                <div class="row justify-content-center">
-                    <h3>Succès</h3>
+                <div class="row justify-content-center text-center">
+                    <img class='succes' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/succes.png" alt="">
+                    <h3>Votre réponse nous a bien été envoyée</h3>
+                    <h3>Votre demande sera traitée dans les plus brefs délais</h3>
                 </div>
             </div>
         </div>

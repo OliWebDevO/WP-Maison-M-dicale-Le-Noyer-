@@ -140,19 +140,22 @@
                                     <p class="sub-title">Inscrivez vous au journal ici </p>
                                     <h2 class="title">Inscription </h2>
                                 </div>
-                                <form id="contact-form" action="inc/contact.php" class="contact-form" data-toggle="validator">
+                                <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-toggle="validator">
+                                    <input type="hidden" name="access_key" value="3623632f-c6b3-4739-a3fc-5351b2aac174">
+                                    <input type="hidden" name="subject" value="Vous avez reçu un nouveau formulaire de la part d'un visiteur de votre site web">
+                                    <input type="hidden" name="from_name" value="Notification | lenoyer.be">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-grp">
                                                 <label for="full-name">Nom</label>
-                                                <input type="text" id="full-name" placeholder="Votre nom" required="required" data-error="Veuillez écrire votre nom.">
+                                                <input name="Nom" type="text" id="full-name" placeholder="Votre nom" required>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-grp">
                                                 <label for="email">Email</label>
-                                                <input type="email" id="email" placeholder="Votre email" required="required" data-error="Veuillez introduire votre email">
+                                                <input name="Email" type="email" id="email" placeholder="Votre email" required>
                                                 <div class="help-block with-errors"></div>
                                             </div>
                                         </div>
@@ -160,27 +163,28 @@
                                             <div class="form-grp cb">
                                                 <fieldset>
                                                     <div class='cb-flex'>
-                                                        <input type="radio" id="check3" name="check-journal1" />
+                                                        <input type="checkbox" id="check3" name="Inscription au journal au format mail" onclick="document.getElementById('check5').checked = false" />
                                                         <label for="check3">S'inscrire au journal au format mail</label>
                                                     </div>
                                                     <div class='cb-flex'>
-                                                        <input type="radio" id="check5" name="check-journal1" />
+                                                        <input type="checkbox" id="check5" name="Désinscription au journal au format mail" onclick="document.getElementById('check3').checked = false" />
                                                         <label for="check5">Se désinscrire du journal au format mail</label>
                                                     </div>
                                                     <div class='cb-flex'>
-                                                        <input type="radio" id="check4" name="check-journal2" />
+                                                        <input type="checkbox" id="check4" name="Inscription au journal au format papier" onclick="document.getElementById('check6').checked = false" />
                                                         <label for="check4">S'inscrire au journal au format papier</label>
                                                     </div>
                                                     <div class='cb-flex'>
-                                                        <input type="radio" id="check6" name="check-journal2" />
+                                                        <input type="checkbox" id="check6" name="Désinscription au journal au format papier" onclick="document.getElementById('check4').checked = false" />
                                                         <label for="check6">Se désinscrire du journal au format papier </label>
                                                     </div>
                                                 </fieldset>
                                             </div>
                                         </div>
                                     </div>
+                                    <input type="hidden" name="redirect" value="<?php bloginfo("url")?>/succes">
                                     <div class="form-btn">
-                                        <button type="submit" class="btn">Envoyer</button>
+                                        <button type="submit" class="btn">Rejoindre</button>
                                     </div>
                                 </form>
                             </div>

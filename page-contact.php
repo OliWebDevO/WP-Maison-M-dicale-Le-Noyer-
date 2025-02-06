@@ -119,7 +119,7 @@
                         <nav aria-label="Breadcrumbs" class="breadcrumb-trail">
                             <ul class="breadcrumb">
                                 <li class="breadcrumb-item trail-item trail-begin">
-                                    <a href="index.html"><span>Accueil</span></a>
+                                    <a href="<?php bloginfo("url")?>"><span>Accueil</span></a>
                                 </li>
                                 <li class="breadcrumb-item trail-item trail-end"><span>Contact & Accès</span></li>
                             </ul>
@@ -263,6 +263,8 @@
                                  <!-- <form id="contact-form" action="inc/contact.php" class="contact-form" data-toggle="validator"> -->
                                 <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-toggle="validator">
                                     <input type="hidden" name="access_key" value="3623632f-c6b3-4739-a3fc-5351b2aac174">
+                                    <input type="hidden" name="subject" value="Vous avez reçu un nouveau formulaire de la part d'un visiteur de votre site web">
+                                    <input type="hidden" name="from_name" value="Notification | lenoyer.be">
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-grp">
@@ -303,7 +305,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <input type="hidden" name="redirect" value="https://testopia.pro">
+                                    <input type="hidden" name="redirect" value="<?php bloginfo("url")?>/succes">
                                     <div class="form-btn">
                                         <button type="submit" class="btn">Rejoindre</button>
                                     </div>

@@ -7935,3 +7935,18 @@ list-style-type: none;
   .mil-mb-120 {
 	margin-bottom: 120px;
   }
+  .succes {
+	width: 130px;
+	height: 120px;
+	object-fit: cover;
+	object-position: center;
+	margin-bottom: 50px;
+  }
+  .rgpd {
+	p {
+		text-align: left;
+	}
+	p:first-of-type {
+		margin-top: 50px;
+	}
+  }
