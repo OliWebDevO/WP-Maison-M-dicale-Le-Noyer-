@@ -260,7 +260,20 @@
             </div>
         </div>
     </section>
-
+    <section id="ingredient" class="ingredients-area-two section-py-60">
+        <div class="container">
+            <div class="row justify-content-center triptyque-">
+                <div class="col-lg-10">
+                    <div class="section-title section-title-two text-center mb-90">
+                        <h2 class="title">Notre zone d'inscription</h2>
+                        <div class="col-lg-12 mt60">
+                            <img class='zone' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/Zone-Site.png" alt="zone d'inscription">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
         
             <!-- features-product -->
             <section id="" class="features-products">

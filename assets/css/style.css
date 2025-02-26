@@ -4580,6 +4580,22 @@ list-style-type: none;
 }
 .contact-content .contact-desc {
 	margin-bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	.contact-icon {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 28px;
+		color: var(--tg-secondary-color);
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			color: var(--tg-primary-color);
+			transition: all 0.3s ease-in-out;
+		}
+	}
 }
 .contact-box-wrapper {
 	padding: 0 55px;
@@ -7949,4 +7965,10 @@ list-style-type: none;
 	p:first-of-type {
 		margin-top: 50px;
 	}
+  }
+  .list-wrap a {
+		pointer-events: none;
+  }
+  .mt60 {
+	margin-top: 60px;
   }

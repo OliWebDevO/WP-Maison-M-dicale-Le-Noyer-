@@ -137,26 +137,23 @@
             <div class="contact-box-wrapper">
                 <div class="row justify-content-center text-center rgpd">
                     <h3>Règlement général sur la protection des données</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis laoreet mauris eget condimentum. In in nunc eu ante elementum volutpat. Sed tempor ultrices bibendum. Proin bibendum pretium dapibus. Donec a augue pulvinar, pretium ex fermentum, condimentum ligula. Maecenas aliquam mauris et finibus faucibus. Suspendisse in ullamcorper lacus, quis faucibus diam. Praesent non ipsum id justo lobortis rhoncus. Quisque tincidunt purus a ante interdum, ac sollicitudin nisi volutpat. Nulla sagittis risus vel ex convallis finibus. Fusce sem elit, blandit nec diam ut, blandit semper ipsum. Etiam consectetur dui eros, in viverra neque consectetur sed. Donec aliquam felis orci, sit amet sodales turpis lacinia vitae.
-                    </p>
 
-                    <p>
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sit amet purus ante. Fusce sed nulla a orci viverra tincidunt. Suspendisse a viverra felis. Aenean mattis mattis velit ac sagittis. Praesent cursus sagittis diam sed dictum. Pellentesque auctor vestibulum nisi ut laoreet.
-                    </p>
-                       
-                    <p>
-                        Morbi vestibulum auctor arcu, nec fermentum enim sodales vitae. Suspendisse potenti. In justo augue, molestie nec dignissim ac, porta at magna. Donec justo justo, porttitor vel mauris sed, tincidunt iaculis lectus. Duis ac tempor dui. Integer non ante turpis. Nulla tincidunt tempus tincidunt. Suspendisse a ipsum ac tellus tincidunt pretium sed eget dolor. Etiam cursus tellus id augue ornare mollis. Morbi iaculis tincidunt neque et feugiat. Ut sodales convallis tellus non suscipit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent elementum elit varius sem imperdiet porta. Cras semper odio et sapien feugiat ultrices.
-                    </p>
-
-                    <p>
-                        Donec cursus malesuada erat, a suscipit ex condimentum eu. Fusce eget leo tincidunt turpis viverra suscipit. Quisque quis euismod arcu, sit amet aliquet dui. Nunc consequat, eros tincidunt tristique fermentum, felis ipsum commodo tellus, non dapibus orci augue pellentesque erat. Maecenas ut ligula ac ex fermentum consectetur quis id augue. In vitae dignissim massa. Curabitur id tortor pulvinar, fermentum odio eget, tincidunt ipsum. Ut luctus placerat dui, cursus volutpat nulla porttitor non. Fusce nunc sem, lobortis eu nulla eu, pellentesque efficitur velit. Vivamus viverra sit amet dolor at convallis. Quisque sodales ligula metus, in tristique urna mattis sit amet. Sed cursus, eros ac dapibus aliquet, est nibh gravida mi, quis sollicitudin augue tellus eget enim. Morbi scelerisque dignissim arcu ac maximus.
-                    </p>
-                    
-                    <p>
-                        Quisque arcu turpis, egestas vel vulputate et, sagittis non orci. Praesent faucibus ut sem malesuada gravida. Nullam quis luctus nibh. Ut hendrerit, diam ac sodales scelerisque, ipsum mi pulvinar felis, mattis aliquet velit massa vitae leo. Duis vitae volutpat metus, eu feugiat nibh. Ut interdum dui sit amet dolor accumsan bibendum sed luctus leo. Mauris imperdiet venenatis augue, quis hendrerit mi.
-                    </p>
-
+                    <!-- Loop PHP Debut-->
+                    <?php
+                    $loop = new WP_Query( array( 
+                        'post_type' => 'rgpd', // Va rechercher le type de contenu “job”
+                        'posts_per_page' => -1, // Affiche tout sans limite 
+                        'offset' => 0, // Commence la boucle après avoir "passé" les 3 premiers
+                        'orderby' => 'name', // Ordonne par le nom de l'élément
+                        'order' => 'ASC', // Chronologique ou pas (DESC)
+                            ));?>
+                    <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                    <!-- Ce qui doit être "bouclé" -->
+                    <?php the_field('rgpd');?>
+                    <?php endwhile;
+                    wp_reset_query();
+                    ?>
+                    <!-- Loop PHP Fin-->
                 </div>
             </div>
         </div>

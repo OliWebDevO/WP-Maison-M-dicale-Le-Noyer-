@@ -157,6 +157,7 @@
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title"><?php the_title(); ?></h5>
+                                    <h6 ><?php the_field('description'); ?></h6>
                                     <!-- <p class="contact-desc"></p> -->
                                 </div>
                             </div>
