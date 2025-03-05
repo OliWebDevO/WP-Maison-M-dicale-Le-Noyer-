@@ -75,7 +75,21 @@
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title">Web</h5>
-                                    <p class="contact-desc"><a href="mailto:<?php the_field('mail');?>">Mail</a> <br> <a href="<?php the_field('facebook');?>">Facebook</a></p>
+                                    <p class="contact-desc"><a class='contact-icon' href="mailto:<?php the_field('mail');?>"><i class="fa-solid fa-envelope"></i></a>  <a class='contact-icon' href="<?php the_field('facebook');?>" target='blank'><i class="fa-brands fa-facebook"></i></a></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <a href="https://www.google.com/maps/place/Maison+M%C3%A9dicale+Le+Noyer/@50.8523601,4.3863791,17z/data=!3m1!4b1!4m6!3m5!1s0x47c3c35c1c50886d:0xae67049eba86c3a7!8m2!3d50.8523601!4d4.388954!16s%2Fg%2F1tfq3tr7?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D">
+                            <div class="contact-box">
+                                <div class="contact-icon">
+                                    <!-- <span class="overlay-icon"><i class="fas fa-check"></i></span> -->
+                                    <i class="fa-solid fa-bus-simple"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h5 class="title">Transports en commun à proximité du Noyer</h5>
+                                    <p class="contact-desc"><?php the_field('transports_en_commun_a_proximite_du_noyer');?></p>
                                 </div>
                             </div>
                         </a>
@@ -103,11 +117,6 @@
                         </a>
                     </div>
 
-                    <?php endwhile;
-                    wp_reset_query();
-                    ?>
-                    <!-- Loop PHP Fin-->
-
                     <div class="col-lg-6 col-md-6 col-sm-9">
                         <a href="https://www.gbbw.be/" target ='blank'>
                             <div class="contact-box contact-big">
@@ -119,17 +128,21 @@
                                     <h5 class="title">Garde</h5>
                                     <br class='mobile-hidden'><br class='mobile-hidden'><br class='mobile-hidden'>
                                     <p class="contact-desc"></p>
-                                    <p>L'accueil reste joignable durant les heures de fermeture du temps de midi pour les urgences médicales.</p>
+                                    <p><?php the_field('infos_garde_1');?></p>
                                     <img class='horaires4' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/garde.jpeg" alt="Garde">
-                                    <p>Après 19h, les week-ends et les jours fériés ; Appelez la garde bruxelloise au :</p>
+                                    <p><?php the_field('infos_garde_2');?></p>
                                     <img class='horaires3' src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/1733.png" alt="Autre poste de garde">
-                                    <p>Ou rendez-vous aux postes de garde : <br> Chaussée de Haecht 579, 1030 schaerbeek <br> Rue d'Oultremont 54, 1040 etterbeek</p>
+                                    <p><?php the_field('infos_garde_3');?></p>
                                     <br class='mobile-hidden'>
                                     <br class='mobile-hidden'>
                                 </div>
                             </div>
                         </a>
                     </div>
+                    <?php endwhile;
+                    wp_reset_query();
+                    ?>
+                    <!-- Loop PHP Fin-->
                 </div>
             </div>
         </div>

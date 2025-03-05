@@ -248,6 +248,10 @@
                                 <h3 class="title">Honoraires</h3>
                                 <?php the_field('honoraires');?>
                             </div>
+                            <div class="blog-details-wrap">
+                                <h3 class="title">Ordonnances</h3>
+                                <?php the_field('ordonnances');?>
+                            </div>
                             <div class="blog--post--thumb service-box wow fadeInUp" data-wow-delay=".3s">
                                 <a href="<?php the_field('preparer_sa_consultation');?>" target="_blank"><img class='service-photo' src="<?php the_field('preparer_sa_consultation_image');?>" alt="img"></a>
                             </div>
@@ -358,6 +362,10 @@ wp_reset_query();
                             <div class="blog-details-wrap">
                                 <h3 class="title">Honoraires</h3>
                                 <?php the_field('honoraires');?>
+                            </div>
+                            <div class="blog-details-wrap">
+                                <h3 class="title">Ordonnances</h3>
+                                <?php the_field('ordonnances');?>
                             </div>
                             <div class="blog--post--thumb service-box wow fadeInUp" data-wow-delay=".3s">
                                 <a href="<?php the_field('preparer_sa_consultation');?>" target="_blank"><img class='service-photo' src="<?php the_field('preparer_sa_consultation_image');?>" alt="préparer sa consultation"></a>
@@ -552,10 +560,10 @@ wp_reset_query();
                                 <h3 class="title">Retard et annulation</h3>
                                 <?php the_field('retard_et_annulation');?>
                             </div>
-                            <div class="blog-details-wrap">
+                            <!-- <div class="blog-details-wrap">
                                 <h3 class="title">Honoraires</h3>
                                 <?php the_field('honoraires');?>
-                            </div>
+                            </div> -->
                             <div class="blog--post--thumb service-box wow fadeInUp" data-wow-delay=".3s">
                                 <a href="<?php the_field('preparer_sa_consultation');?>" target="_blank"><img class='service-photo' src="<?php the_field('preparer_sa_consultation_image');?>" alt="img"></a>
                             </div>
