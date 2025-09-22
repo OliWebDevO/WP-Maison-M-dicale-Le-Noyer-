@@ -1,0 +1,51 @@
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Template images (not needed for Le Noyer)
+assets/img/blog/
+assets/img/brand/
+assets/img/products/
+assets/img/others/about_img.png
+assets/img/others/card_img.png
+assets/img/others/doctor_img*.jpg
+assets/img/others/faq_img.jpg
+assets/img/others/features_img.png
+assets/img/others/features_sec_shape*.png
+assets/img/others/footer_shape*.png
+assets/img/others/formula_img.png
+assets/img/others/h3_pricing_img*.png
+assets/img/others/ingredients_*.png
+assets/img/others/instagram_post*.jpg
+assets/img/others/newsletter_shape.png
+assets/img/others/p_review_img*.jpg
+assets/img/others/pricing_*.png
+assets/img/others/satisfaction_img.png
+assets/img/others/supplement_*.png
+assets/img/others/testi_*.png
+assets/img/others/testi_*.jpg
+assets/img/others/title_shape.svg
+assets/img/others/video_*.png
+assets/img/others/video_*.jpg
+
+# Template background images
+assets/img/bg/h3_features_bg_02.jpg
+assets/img/bg/h3_footer-bg.jpg
+assets/img/bg/testimonial_bg.jpg
+assets/img/bg/tg_testimonial_bg.jpg
+assets/img/bg/tg_video_bg.jpg
+assets/img/bg/video_bg.jpg
+
+# Template banner images
+assets/img/banner/h3_banner_*.png
+assets/img/banner/tg_banner_*.jpg
+
+# Template icons (keep only essential ones)
+assets/img/icons/apple.svg
+assets/img/icons/counter_icon*.svg
+assets/img/icons/features_icon*.svg
