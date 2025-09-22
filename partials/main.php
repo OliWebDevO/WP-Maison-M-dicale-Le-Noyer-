@@ -75,7 +75,7 @@
                                 </div>
                                 <div class="contact-content">
                                     <h5 class="title">Web</h5>
-                                    <p class="contact-desc"><a class='contact-icon' href="mailto:<?php the_field('mail');?>"><i class="fa-solid fa-envelope"></i></a>  <a class='contact-icon' href="<?php the_field('facebook');?>" target='blank'><i class="fa-brands fa-facebook"></i></a></p>
+                                    <p class="contact-desc"><a class='contact-icon' href="mailto:<?php the_field('mail');?>"><i class="fa-solid fa-envelope"></i></a> <span>: info@lenoyer.be</span> <a class='contact-icon' href="<?php the_field('facebook');?>" target='blank'><i class="fa-brands fa-facebook"></i></a></p>
                                 </div>
                             </div>
                         </a>

@@ -141,7 +141,7 @@
                                     <h2 class="title">Inscription </h2>
                                 </div>
                                 <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-toggle="validator">
-                                    <input type="hidden" name="access_key" value="3623632f-c6b3-4739-a3fc-5351b2aac174">
+                                    <input type="hidden" name="access_key" value="6cae325f-c67a-4929-8d76-4f575006f85d">
                                     <input type="hidden" name="subject" value="Vous avez reçu un nouveau formulaire de la part d'un visiteur de votre site web">
                                     <input type="hidden" name="from_name" value="Notification | lenoyer.be">
                                     <div class="row">

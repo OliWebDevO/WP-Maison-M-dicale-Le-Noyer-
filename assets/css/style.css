@@ -4581,7 +4581,7 @@ list-style-type: none;
 .contact-content .contact-desc {
 	margin-bottom: 0;
 	display: flex;
-	align-items: center;
+	align-items: top;
 	justify-content: center;
 	gap: 10px;
 	.contact-icon {
@@ -7248,11 +7248,13 @@ list-style-type: none;
     color: #292930;
     padding: 15px 30px;
     display: block;
-    background: rgba(250 164 50 / 10%);
+    background: rgba(13 155 77 / 10%);
     border-radius: 10px;
+	pointer-events: none;
 }
 .blog-post-meta .list-wrap li:nth-child(1) a {
-	background: rgba(13 155 77 / 10%);
+	
+	background: rgba(250 164 50 / 10%);
 }
 .blog-post-meta .list-wrap li a:hover {
     background: var(--tg-secondary-color);
@@ -7965,9 +7967,6 @@ list-style-type: none;
 	p:first-of-type {
 		margin-top: 50px;
 	}
-  }
-  .list-wrap a {
-		pointer-events: none;
   }
   .mt60 {
 	margin-top: 60px;

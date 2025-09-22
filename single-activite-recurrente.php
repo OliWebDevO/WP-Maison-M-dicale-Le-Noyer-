@@ -146,7 +146,7 @@
                                 <div class="blog--post--content blog-details-content">
                                 <div class="blog-post-meta">
                                         <ul class="list-wrap">
-                                            <li><a href="">Activité Récurrente</a></li>
+                                            <li><a class='activity-type' href="">Activité Récurrente</a></li>
                                            <li><a href=""><?php the_field('horaires');?></a></li> 
                                         </ul>
                                     </div>
