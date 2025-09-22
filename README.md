@@ -3,6 +3,8 @@
 <div align="center">
   <img src="assets/img/lenoyerentre.png" alt="Le Noyer Medical Center Website" width="600" />
   
+  **🌐 [Visit Le Noyer Medical Center →](https://lenoyer.be)**
+  
   **A custom WordPress theme for Le Noyer Medical Center with comprehensive content management**
   
   [![WordPress](https://img.shields.io/badge/WordPress-Custom%20Theme-21759B?style=for-the-badge&logo=wordpress)](https://wordpress.org/)
