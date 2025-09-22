@@ -1,7 +1,7 @@
 # 🏥 Le Noyer - WordPress Medical Center Theme
 
 <div align="center">
-  <img src="assets/img/logo/logo.png" alt="Le Noyer Logo" width="200" />
+  <img src="assets/img/lenoyerentre.png" alt="Le Noyer Medical Center Website" width="600" />
   
   **A custom WordPress theme for Le Noyer Medical Center with comprehensive content management**
   
