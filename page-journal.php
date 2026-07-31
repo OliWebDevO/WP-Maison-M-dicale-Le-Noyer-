@@ -222,17 +222,35 @@
                                 'orderby' => 'name', // Ordonne par le nom de l'élément
                                 'order' => 'ASC', // Chronologique ou pas (DESC)
                                     ));?>
-                            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                            <?php while ( $loop->have_posts() ) : $loop->the_post();
+                                $pdf_journal = get_field('fichier_du_journal'); ?>
                             <!-- Ce qui doit être "bouclé" -->
                             <div class="col-lg-12 wow fadeInUp" data-wow-delay=".2s">
                                 <div class="tg-testimonial-item">
                                     <div class="tg-testimonial-thumb">
-                                        <a href="<?php the_field('lien_vers_le_journal');?>" target="_blank"><img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/journal.jpg" alt="journal"></a>
-                                    </div> 
+                                        <?php if ( $pdf_journal ) : ?>
+                                        <a href="<?php echo esc_url( $pdf_journal['url'] ); ?>" target="_blank" rel="noopener" type="application/pdf" tabindex="-1" aria-hidden="true">
+                                            <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/journal.jpg" alt="">
+                                        </a>
+                                        <?php else : ?>
+                                        <img src="<?php bloginfo("template_url")?>/assets/img/LeNoyer/journal.jpg" alt="Couverture du journal : <?php the_title_attribute(); ?>">
+                                        <?php endif; ?>
+                                    </div>
                                     <div class="tg-testimonial-content">
                                         <h2 class="title"><?php the_title(); ?></h2>
                                         <p><?php the_field('date_de_parution');?>
                                         </p>
+                                        <?php if ( $pdf_journal ) : ?>
+                                        <div class="journal-actions">
+                                            <a class="journal-action journal-action--view" href="<?php echo esc_url( $pdf_journal['url'] ); ?>" target="_blank" rel="noopener" type="application/pdf">
+                                                Afficher le journal
+                                            </a>
+                                            <a class="journal-action journal-action--download" href="<?php echo esc_url( $pdf_journal['url'] ); ?>" download type="application/pdf">
+                                                Télécharger le journal
+                                                <span class="journal-action__note">(PDF, <?php echo esc_html( size_format( $pdf_journal['filesize'] ) ); ?>)</span>
+                                            </a>
+                                        </div>
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                             </div>

@@ -1532,6 +1532,9 @@
 	font-size: 14px;
 	justify-content: center;
 }
+.journal-actions {
+	justify-content: center;
+}
 .tg-supplement-img {
 	text-align: center !important;
 }
@@ -1769,6 +1772,9 @@
 	font-size: 13px;
 	justify-content: flex-start;
 	margin-bottom: 10px;
+}
+.journal-actions {
+	justify-content: flex-start;
 }
 .tg-blog-post-content .title {
 	font-size: 20px;

@@ -205,7 +205,7 @@
                         </a>
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-9">
-                        <a href="https://acrobat.adobe.com/id/urn:aaid:sc:EU:34a76bdf-20cf-4bb5-a8c2-849b0a5a0117" target='_blank'>
+                        <a href="<?php the_field('lien_depliant');?>" target='_blank'>
                             <div class="contact-box contact-big contact-img-box">
                                 <div class="contact-icon">
                                     <!-- <i class="fa-solid fa-clock"></i> -->
