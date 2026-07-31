@@ -1,0 +1,31 @@
+# Normalisation des fins de ligne
+# Git stocke tout en LF ; chaque poste retrouve la convention de son OS au checkout.
+# Évite les diffs entiers de fichier quand un éditeur change les fins de ligne.
+* text=auto eol=lf
+
+# Fichiers texte du projet (explicite, pour ne pas dépendre de la détection)
+*.php   text eol=lf
+*.css   text eol=lf
+*.scss  text eol=lf
+*.js    text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf
+*.txt   text eol=lf
+*.html  text eol=lf
+*.webmanifest text eol=lf
+
+# Binaires : jamais de conversion, jamais de diff texte
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.pdf   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+*.otf   binary
+*.map   binary
